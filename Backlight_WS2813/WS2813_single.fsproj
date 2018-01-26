@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project xsi:noNamespaceSchemaLocation="Project.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Version current="1"/>
+	<Format>Project</Format>
+	<Header>
+		<Program name="TopoR" version="6.1"/>
+		<GUID>{80441070-D4BA-4975-94E9-A27964D369D5}</GUID>
+		<Annotation>Project file</Annotation>
+	</Header>
+	<Document>
+		<LocalLibrary />
+		<Pcb>
+			<File path=".\WS2813_single.fsx" Folder="-1" isopened="1"/>
+		</Pcb>
+		<Documents path="D:\Projects\16.08.18_Candlestick_v2\Hardware_v2\"/>
+		<Import>
+			<Specctra>
+			<Path name="D:\Projects\16.08.18_Candlestick_v2\Hardware_v2\WS2813_single.dsn"/>
+			</Specctra>
+		</Import>
+		<ARouteSessions>
+		</ARouteSessions>
+	</Document>
+</Project>

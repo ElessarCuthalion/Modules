@@ -1,0 +1,226 @@
+(pcb D:\Projects\16.08.18_Candlestick_v2\Hardware_v2\WS2813_single.dsn
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "(2014-07-12 BZR 4289 GOST-COMMITTERS)-product")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer F.Cu
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer In1.Cu
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (path pcb 0  104500 -50000  104483 -49607.8  104432 -49218.6  104347 -48835.3
+            104229 -48460.9  104078 -48098.2  103897 -47750  103686 -47418.9
+            103447 -47107.5  103182 -46818  102893 -46552.8  102581 -46313.8
+            102250 -46102.9  101902 -45921.6  101539 -45771.4  101165 -45653.3
+            100781 -45568.4  100392 -45517.1  100000 -45500  99607.8 -45517.1
+            99218.6 -45568.4  98835.3 -45653.3  98460.9 -45771.4  98098.2 -45921.6
+            97750 -46102.9  97418.9 -46313.8  97107.5 -46552.8  96818 -46818
+            96552.8 -47107.5  96313.8 -47418.9  96102.9 -47750  95921.6 -48098.2
+            95771.4 -48460.9  95653.3 -48835.3  95568.4 -49218.6  95517.1 -49607.8
+            95500 -50000  95517.1 -50392.2  95568.4 -50781.4  95653.3 -51164.7
+            95771.4 -51539.1  95921.6 -51901.8  96102.9 -52250  96313.8 -52581.1
+            96552.8 -52892.5  96818 -53182  97107.5 -53447.2  97418.9 -53686.2
+            97750 -53897.1  98098.2 -54078.4  98460.9 -54228.6  98835.3 -54346.7
+            99218.6 -54431.6  99607.8 -54482.9  100000 -54500  100392 -54482.9
+            100781 -54431.6  101165 -54346.7  101539 -54228.6  101902 -54078.4
+            102250 -53897.1  102581 -53686.2  102893 -53447.2  103182 -53182
+            103447 -52892.5  103686 -52581.1  103897 -52250  104078 -51901.8
+            104229 -51539.1  104347 -51164.7  104432 -50781.4  104483 -50392.2)
+    )
+    (via "Via[0-1]_700:300_um" "Via[0-1]_900:400_um")
+    (rule
+      (width 200)
+      (clearance 200.1)
+      (clearance 200.1 (type default_smd))
+      (clearance 50 (type smd_smd))
+    )
+  )
+  (placement
+    (component LEDs:WS2813
+      (place HL1 100000 -50000 front 180 (PN WS2813))
+    )
+    (component PCB_details:Hole_for_M2
+      (place Hole1 100000 -50000 front 270 (PN HoleMetalled))
+    )
+    (component "Connectors:FlatConn-4_1,5"
+      (place XP1 97800 -50000 back 90 (PN in))
+      (place XP2 102200 -50000 back 90 (PN out))
+    )
+  )
+  (library
+    (image LEDs:WS2813
+      (outline (path signal 150  1500 -2500  2500 -1500))
+      (outline (path signal 150  2500 -2300  2300 -2500))
+      (outline (path signal 150  2100 -2500  2500 -2100))
+      (outline (path signal 150  2500 -1900  1900 -2500))
+      (outline (path signal 150  1700 -2500  2500 -1700))
+      (outline (path signal 150  2500 -1600  1600 -2500))
+      (outline (path signal 150  2200 0  2092.32 -679.837  1779.84 -1293.13  1293.13 -1779.84
+            679.837 -2092.32  0 -2200  -679.837 -2092.32  -1293.13 -1779.84
+            -1779.84 -1293.13  -2092.32 -679.837  -2200 0  -2092.32 679.837
+            -1779.84 1293.13  -1293.13 1779.84  -679.837 2092.32  0 2200
+            679.837 2092.32  1293.13 1779.84  1779.84 1293.13  2092.32 679.837))
+      (outline (path signal 150  2500 2500  2500 -2500))
+      (outline (path signal 150  2500 -2500  -2500 -2500))
+      (outline (path signal 150  -2500 -2500  -2500 2500))
+      (outline (path signal 149.86  -2500 2500  2500 2500))
+      (pin Oval[T]Pad_1600x1100_um 5 -2500 0)
+      (pin Oval[T]Pad_1600x1100_um 2 2500 0)
+      (pin Rect[T]Pad_1600x1100_um 1 2500 -1600)
+      (pin Oval[T]Pad_1600x1100_um 4 -2500 1600)
+      (pin Oval[T]Pad_1600x1100_um 6 -2500 -1600)
+      (pin Oval[T]Pad_1600x1100_um 3 2500 1600)
+    )
+    (image PCB_details:Hole_for_M2
+      (pin Round[A]Pad_1800_um H 0 0)
+    )
+    (image "Connectors:FlatConn-4_1,5"
+      (outline (path signal 150  -3000 -1250  -3300 -1250))
+      (outline (path signal 150  -3000 1250  -3300 1250))
+      (outline (path signal 150  -3100 -1250  -3100 1250))
+      (outline (path signal 150  -3200 1250  -3200 -1250))
+      (outline (path signal 150  -3300 -1250  -3300 1250))
+      (outline (path signal 150  3000 -1250  -3000 -1250))
+      (outline (path signal 150  -3000 -1250  -3000 1250))
+      (outline (path signal 150  -3000 1250  3000 1250))
+      (outline (path signal 150  3000 -1250  3000 1250))
+      (pin Oval[T]Pad_1000x2000_um 4 2250 0)
+      (pin Rect[T]Pad_1000x2000_um 1 -2250 0)
+      (pin Oval[T]Pad_1000x2000_um 2 -750 0)
+      (pin Oval[T]Pad_1000x2000_um 3 750 0)
+    )
+    (padstack Round[A]Pad_1800_um
+      (shape (circle F.Cu 1800))
+      (shape (circle In1.Cu 1800))
+      (attach off)
+    )
+    (padstack Oval[T]Pad_1000x2000_um
+      (shape (path F.Cu 1000  0 -500  0 500))
+      (attach off)
+    )
+    (padstack Oval[T]Pad_1600x1100_um
+      (shape (path F.Cu 1100  -250 0  250 0))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_1000x2000_um
+      (shape (rect F.Cu -500 -1000 500 1000))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_1600x1100_um
+      (shape (rect F.Cu -800 -550 800 550))
+      (attach off)
+    )
+    (padstack "Via[0-1]_700:300_um"
+      (shape (circle F.Cu 700))
+      (shape (circle In1.Cu 700))
+      (attach off)
+    )
+    (padstack "Via[0-1]_900:400_um"
+      (shape (circle F.Cu 900))
+      (shape (circle In1.Cu 900))
+      (attach off)
+    )
+  )
+  (network
+    (net GND
+      (pins HL1-5 Hole1-H XP1-2 XP2-2)
+    )
+    (net +VCC
+      (pins HL1-2 HL1-1 XP1-1 XP2-1)
+    )
+    (net /Din
+      (pins HL1-4 XP1-3 XP2-4)
+    )
+    (net /BDin
+      (pins HL1-6 XP1-4)
+    )
+    (net /Dout
+      (pins HL1-3 XP2-3)
+    )
+    (class kicad_default "" /BDin /Din /Dout
+      (circuit
+        (use_via Via[0-1]_700:300_um)
+      )
+      (rule
+        (width 200)
+        (clearance 200.1)
+      )
+    )
+    (class wide +VCC GND
+      (circuit
+        (use_via Via[0-1]_900:400_um)
+      )
+      (rule
+        (width 500)
+        (clearance 200.1)
+      )
+    )
+  )
+  (wiring
+    (wire (path In1.Cu 500  98300 -49250  100000 -50000)(net GND)(type protect))
+    (wire (path In1.Cu 500  97800 -49250  98300 -49250)(net GND)(type protect))
+    (wire (path In1.Cu 500  101700 -49250  102200 -49250)(net GND)(type protect))
+    (wire (path In1.Cu 500  100000 -50000  101700 -49250)(net GND)(type protect))
+    (wire (path In1.Cu 500  102200 -49250  102200 -49365)(net GND)(type protect))
+    (wire (path F.Cu 500  102250 -50000  100000 -50000)(net GND)(type protect))
+    (wire (path F.Cu 500  102500 -50000  102250 -50000)(net GND)(type protect))
+    (wire (path In1.Cu 500  98164.3 -47500  97800 -47750)(net +VCC)(type protect))
+    (wire (path In1.Cu 500  98164.3 -47250  98164.3 -47500)(net +VCC)(type protect))
+    (wire (path In1.Cu 500  98164.3 -47054.6  98164.3 -47250)(net +VCC)(type protect))
+    (wire (path In1.Cu 1000  98300 -47750  97800 -47750)(net +VCC)(type protect))
+    (wire (path In1.Cu 1000  98800 -47750  98300 -47750)(net +VCC)(type protect))
+    (wire (path In1.Cu 1000  101200 -47750  98800 -47750)(net +VCC)(type protect))
+    (wire (path In1.Cu 1000  101700 -47750  101200 -47750)(net +VCC)(type protect))
+    (wire (path In1.Cu 1000  102200 -47750  101700 -47750)(net +VCC)(type protect))
+    (wire (path F.Cu 500  98050 -48100  97500 -48400)(net +VCC)(type protect))
+    (wire (path F.Cu 500  98050 -47850  98050 -48100)(net +VCC)(type protect))
+    (wire (path F.Cu 500  98050 -47746.4  98050 -47850)(net +VCC)(type protect))
+    (wire (path F.Cu 500  98164.3 -47054.6  98050 -47746.4)(net +VCC)(type protect))
+    (wire (path F.Cu 500  97500 -48950  97500 -50000)(net +VCC)(type protect))
+    (wire (path F.Cu 500  97500 -48700  97500 -48950)(net +VCC)(type protect))
+    (wire (path F.Cu 500  97500 -48400  97500 -48700)(net +VCC)(type protect))
+    (wire (path In1.Cu 200  99492.8 -51224.6  100907 -52100.5)(net /Din)(type protect))
+    (wire (path In1.Cu 200  99316.9 -51048.7  99492.8 -51224.6)(net /Din)(type protect))
+    (wire (path In1.Cu 200  98300 -50750  99316.9 -51048.7)(net /Din)(type protect))
+    (wire (path In1.Cu 200  97800 -50750  98300 -50750)(net /Din)(type protect))
+    (wire (path In1.Cu 200  101700 -52250  102200 -52250)(net /Din)(type protect))
+    (wire (path In1.Cu 200  100907 -52100.5  101700 -52250)(net /Din)(type protect))
+    (wire (path In1.Cu 200  102200 -51905  102200 -52250)(net /Din)(type protect))
+    (wire (path F.Cu 200  102250 -51600  102500 -51600)(net /Din)(type protect))
+    (wire (path F.Cu 200  100907 -52100.5  102250 -51600)(net /Din)(type protect))
+    (wire (path In1.Cu 200  98300 -52250  97800 -52250)(net /BDin)(type protect))
+    (wire (path In1.Cu 200  99037.5 -51723.3  98300 -52250)(net /BDin)(type protect))
+    (wire (path F.Cu 200  98700 -50529.9  99037.5 -51723.3)(net /BDin)(type protect))
+    (wire (path F.Cu 200  98700 -49470.1  98700 -50529.9)(net /BDin)(type protect))
+    (wire (path F.Cu 200  98706.1 -49455.4  98700 -49470.1)(net /BDin)(type protect))
+    (wire (path F.Cu 200  99455.4 -48706.1  98706.1 -49455.4)(net /BDin)(type protect))
+    (wire (path F.Cu 200  99470.1 -48700  99455.4 -48706.1)(net /BDin)(type protect))
+    (wire (path F.Cu 200  102250 -48400  99470.1 -48700)(net /BDin)(type protect))
+    (wire (path F.Cu 200  102500 -48400  102250 -48400)(net /BDin)(type protect))
+    (wire (path In1.Cu 200  102200 -50635  102200 -50750)(net /Dout)(type protect))
+    (wire (path In1.Cu 200  101700 -50750  101020 -51085.7)(net /Dout)(type protect))
+    (wire (path In1.Cu 200  102200 -50750  101700 -50750)(net /Dout)(type protect))
+    (wire (path F.Cu 200  97750 -51600  97500 -51600)(net /Dout)(type protect))
+    (wire (path F.Cu 200  98726.8 -52473.4  97750 -51600)(net /Dout)(type protect))
+    (wire (path F.Cu 200  99348.2 -52473.4  98726.8 -52473.4)(net /Dout)(type protect))
+    (wire (path F.Cu 200  100596 -51350.4  99348.2 -52473.4)(net /Dout)(type protect))
+    (wire (path F.Cu 200  101020 -51085.7  100596 -51350.4)(net /Dout)(type protect))
+    (via "Via[0-1]_900:400_um"  98164.3 -47054.6 (net +VCC)(type protect))
+    (via "Via[0-1]_700:300_um"  100907 -52100.5 (net /Din)(type protect))
+    (via "Via[0-1]_700:300_um"  99037.5 -51723.3 (net /BDin)(type protect))
+    (via "Via[0-1]_700:300_um"  101020 -51085.7 (net /Dout)(type protect))
+  )
+)

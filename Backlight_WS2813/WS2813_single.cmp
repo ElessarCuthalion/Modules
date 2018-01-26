@@ -1,0 +1,38 @@
+Cmp-Mod V01 Created by Cvpcb (2014-07-12 BZR 4289 GOST-COMMITTERS)-product   date = 19.11.2017 23:51:43
+
+BeginCmp
+TimeStamp = /5A0DEBE9;
+Reference = HL1;
+ValeurCmp = WS2813;
+IdModule  = LEDs:WS2813;
+EndCmp
+
+BeginCmp
+TimeStamp = /5A0DF70B;
+Reference = Hole1;
+ValeurCmp = HoleMetalled;
+IdModule  = PCB_details:Hole_for_M2;
+EndCmp
+
+BeginCmp
+TimeStamp = /57C01481;
+Reference = Logo1;
+ValeurCmp = Eldalim;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /5A0DE699;
+Reference = XP1;
+ValeurCmp = in;
+IdModule  = Connectors:FlatConn-4_1,5;
+EndCmp
+
+BeginCmp
+TimeStamp = /5A0DE62D;
+Reference = XP2;
+ValeurCmp = out;
+IdModule  = Connectors:FlatConn-4_1,5;
+EndCmp
+
+EndListe
