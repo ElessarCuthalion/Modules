@@ -1,0 +1,279 @@
+EESchema Schematic File Version 2
+LIBS:Audio
+LIBS:Capacitors
+LIBS:Chargers
+LIBS:DC-DC
+LIBS:Drivers
+LIBS:Inductors
+LIBS:LED
+LIBS:Opto
+LIBS:OU
+LIBS:PCB details
+LIBS:Quartz
+LIBS:Regulators
+LIBS:Resistors
+LIBS:Sensors
+LIBS:Sound
+LIBS:Switches
+LIBS:Logic
+LIBS:Diodes
+LIBS:Transistors
+LIBS:Interface
+LIBS:Modules
+LIBS:Radio
+LIBS:Relays
+LIBS:Graphics
+LIBS:Motors
+LIBS:Power
+LIBS:Connectors
+LIBS:MSU
+LIBS:AT42QT1011_simple-cache
+EELAYER 24 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date "16 oct 2014"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Notes 7100 6950 0    197  ~ 0
+AT42QT1011 small module
+Wire Notes Line
+	50650 5500 50650 5550
+NoConn ~ 18450 -1450
+$Comp
+L Eldalim Logo1
+U 1 1 57C01481
+P 1750 3200
+F 0 "Logo1" H 1750 3750 60  0001 C CNN
+F 1 "Eldalim" H 1750 3650 60  0001 C CNN
+F 2 "Graphics:Eldalim_7x6_back" H 1750 3200 60  0001 C CNN
+F 3 "" H 1750 3200 60  0000 C CNN
+	1    1750 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L AT42QT1011 DA1
+U 1 1 57D18E63
+P 3550 1750
+F 0 "DA1" H 3550 2300 60  0000 C CNN
+F 1 "AT42QT1011" H 3550 2200 60  0000 C CNN
+F 2 "SOT:SOT23-6" H 3550 1200 60  0001 C CNN
+F 3 "" H 3550 1200 60  0000 C CNN
+	1    3550 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #U01
+U 1 1 57D18E78
+P 4200 2500
+F 0 "#U01" V 4250 2550 60  0001 C CNN
+F 1 "GND" V 4250 2450 60  0001 C CNN
+F 2 "" H 4200 2500 60  0000 C CNN
+F 3 "" H 4200 2500 60  0000 C CNN
+	1    4200 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #U02
+U 1 1 57D18E7E
+P 4700 2500
+F 0 "#U02" V 4750 2550 60  0001 C CNN
+F 1 "GND" V 4750 2450 60  0001 C CNN
+F 2 "" H 4700 2500 60  0000 C CNN
+F 3 "" H 4700 2500 60  0000 C CNN
+	1    4700 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_0805 C1
+U 1 1 57D18E8A
+P 2850 1800
+F 0 "C1" H 2500 1800 60  0000 C CNN
+F 1 "2200pF" H 2500 1700 60  0000 C CNN
+F 2 "Capacitors:CAP0805" H 3150 1700 60  0001 C CNN
+F 3 "" H 2850 2000 60  0000 C CNN
+	1    2850 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #U03
+U 1 1 57D18EA0
+P 5300 2500
+F 0 "#U03" V 5350 2550 60  0001 C CNN
+F 1 "GND" V 5350 2450 60  0001 C CNN
+F 2 "" H 5300 2500 60  0000 C CNN
+F 3 "" H 5300 2500 60  0000 C CNN
+	1    5300 2500
+	1    0    0    -1  
+$EndComp
+Text Label 5300 1450 0    60   ~ 0
++VCC
+$Comp
+L PWR_FLAG #FLG04
+U 1 1 57D18EB1
+P 4700 1300
+F 0 "#FLG04" H 4700 1395 30  0001 C CNN
+F 1 "PWR_FLAG" H 4700 1480 30  0000 C CNN
+F 2 "" H 4700 1300 60  0000 C CNN
+F 3 "" H 4700 1300 60  0000 C CNN
+	1    4700 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG05
+U 1 1 57D18EDD
+P 5000 2500
+F 0 "#FLG05" H 5000 2595 30  0001 C CNN
+F 1 "PWR_FLAG" H 5000 2680 30  0000 C CNN
+F 2 "" H 5000 2500 60  0000 C CNN
+F 3 "" H 5000 2500 60  0000 C CNN
+	1    5000 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #U06
+U 1 1 57D18EE3
+P 5000 2500
+F 0 "#U06" V 5050 2550 60  0001 C CNN
+F 1 "GND" V 5050 2450 60  0001 C CNN
+F 2 "" H 5000 2500 60  0000 C CNN
+F 3 "" H 5000 2500 60  0000 C CNN
+	1    5000 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 2050 2850 2050
+Wire Wire Line
+	2700 1450 3000 1450
+Wire Wire Line
+	2850 1550 2850 1450
+Connection ~ 2850 1450
+Wire Wire Line
+	4200 2050 4200 2500
+Wire Wire Line
+	1900 1450 1750 1450
+Wire Wire Line
+	4700 1300 4700 1750
+Wire Wire Line
+	4100 1450 5550 1450
+Wire Wire Line
+	4700 2250 4700 2500
+Connection ~ 4700 1450
+Wire Wire Line
+	4100 1650 5550 1650
+Wire Wire Line
+	4100 1850 4200 1850
+Wire Wire Line
+	4200 2050 4100 2050
+$Comp
+L R_0805 R1
+U 1 1 57D19022
+P 2300 1450
+F 0 "R1" H 2300 1700 60  0000 C CNN
+F 1 "1k/4.7k" H 2300 1600 60  0000 C CNN
+F 2 "Resistors:RES0805" H 2300 1300 60  0001 C CNN
+F 3 "" H 1900 1450 60  0000 C CNN
+	1    2300 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 2650 3950 2650
+Wire Wire Line
+	3300 2950 3700 2950
+Wire Wire Line
+	2900 2650 2900 2800
+$Comp
+L GND #U07
+U 1 1 57D1996C
+P 2900 2800
+F 0 "#U07" V 2950 2850 60  0001 C CNN
+F 1 "GND" V 2950 2750 60  0001 C CNN
+F 2 "" H 2900 2800 60  0000 C CNN
+F 3 "" H 2900 2800 60  0000 C CNN
+	1    2900 2800
+	1    0    0    -1  
+$EndComp
+Text Label 3950 2650 2    60   ~ 0
++VCC
+Text Label 3700 2950 0    60   ~ 0
+mode
+Text Label 4200 1850 0    60   ~ 0
+mode
+Wire Wire Line
+	5300 2500 5300 1850
+Wire Wire Line
+	5300 1850 5550 1850
+Text Label 5300 1650 0    60   ~ 0
+Out
+$Comp
+L C_0603 C2
+U 1 1 57D445EF
+P 4700 2000
+F 0 "C2" H 4850 2200 60  0000 C CNN
+F 1 "0.1uF" H 4850 2100 60  0000 C CNN
+F 2 "Capacitors:CAP0603" H 4900 1900 60  0001 C CNN
+F 3 "" H 4700 2250 60  0000 C CNN
+	1    4700 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L for_SENS XP1
+U 1 1 595405DA
+P 5950 1650
+F 0 "XP1" H 5950 2250 60  0000 C CNN
+F 1 "Out" H 5950 2150 60  0000 C CNN
+F 2 "Connectors:for_SENS_PLS2-3" H 5950 1300 60  0001 C CNN
+F 3 "" H 5950 1300 60  0000 C CNN
+F 4 "h 2mm" H 5950 1300 60  0000 C CNN "Step"
+	1    5950 1650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Fuse_x2 fus1
+U 1 1 595406F9
+P 3300 2650
+F 0 "fus1" H 3300 2950 60  0000 C CNN
+F 1 "slow | fast" H 3300 2850 60  0000 C CNN
+F 2 "PCB_details:FuseSolder_x2_0603" H 3300 2500 60  0001 C CNN
+F 3 "" H 3135 2650 60  0000 C CNN
+	1    3300 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L SENS E1
+U 1 1 595407DA
+P 1400 1450
+F 0 "E1" H 1400 1750 60  0000 C CNN
+F 1 "SENS" H 1400 1650 60  0000 C CNN
+F 2 "Connectors:PBS2-1Rnd" H 1400 1250 60  0001 C CNN
+F 3 "" H 1400 1250 60  0000 C CNN
+F 4 "PBS-1" H 1400 1250 60  0000 C CNN "Comment"
+	1    1400 1450
+	1    0    0    -1  
+$EndComp
+Text Notes 2200 2050 0    60   ~ 0
+or 0.01uF
+$Comp
+L Conn-1m XP2
+U 1 1 59542E66
+P 6050 2300
+F 0 "XP2" H 5900 2450 60  0000 C CNN
+F 1 "Mode" H 6050 2350 60  0000 R CNN
+F 2 "Connectors:PLS2-1Rnd" H 6000 2250 60  0001 C CNN
+F 3 "" H 6150 2300 60  0000 C CNN
+F 4 "h 2mm" H 6050 2250 60  0000 R CNN "Step"
+	1    6050 2300
+	1    0    0    -1  
+$EndComp
+Text Label 5500 2300 0    60   ~ 0
+mode
+Wire Wire Line
+	5850 2300 5500 2300
+$EndSCHEMATC

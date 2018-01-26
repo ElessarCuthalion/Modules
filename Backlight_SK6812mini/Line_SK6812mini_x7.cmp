@@ -1,0 +1,129 @@
+Cmp-Mod V01 Created by Cvpcb (2014-07-12 BZR 4289 GOST-COMMITTERS)-product   date = 06.11.2017 13:20:07
+
+BeginCmp
+TimeStamp = /59F30282;
+Reference = C1;
+ValeurCmp = 0.1uF;
+IdModule  = Capacitors:CAP0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /59F3027B;
+Reference = C2;
+ValeurCmp = 0.1uF;
+IdModule  = Capacitors:CAP0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /59FCC456;
+Reference = C3;
+ValeurCmp = 0.1uF;
+IdModule  = Capacitors:CAP0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /59FCC450;
+Reference = C4;
+ValeurCmp = 0.1uF;
+IdModule  = Capacitors:CAP0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /59FCC4CA;
+Reference = C5;
+ValeurCmp = 0.1uF;
+IdModule  = Capacitors:CAP0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /59FCC51A;
+Reference = C6;
+ValeurCmp = 0.1uF;
+IdModule  = Capacitors:CAP0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5A004AE6;
+Reference = C7;
+ValeurCmp = 0.1uF;
+IdModule  = Capacitors:CAP0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5A004AEC;
+Reference = C8;
+ValeurCmp = 0.1uF;
+IdModule  = Capacitors:CAP0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /59F2FCC7;
+Reference = HL1;
+ValeurCmp = SK6812mini;
+IdModule  = LEDs:SK6812mini;
+EndCmp
+
+BeginCmp
+TimeStamp = /59F3087A;
+Reference = HL2;
+ValeurCmp = SK6812mini;
+IdModule  = LEDs:SK6812mini;
+EndCmp
+
+BeginCmp
+TimeStamp = /59F309F0;
+Reference = HL3;
+ValeurCmp = SK6812mini;
+IdModule  = LEDs:SK6812mini;
+EndCmp
+
+BeginCmp
+TimeStamp = /59F310BC;
+Reference = HL4;
+ValeurCmp = SK6812mini;
+IdModule  = LEDs:SK6812mini;
+EndCmp
+
+BeginCmp
+TimeStamp = /59F31154;
+Reference = HL5;
+ValeurCmp = SK6812mini;
+IdModule  = LEDs:SK6812mini;
+EndCmp
+
+BeginCmp
+TimeStamp = /5A004770;
+Reference = HL6;
+ValeurCmp = SK6812mini;
+IdModule  = LEDs:SK6812mini;
+EndCmp
+
+BeginCmp
+TimeStamp = /5A004682;
+Reference = HL7;
+ValeurCmp = SK6812mini;
+IdModule  = LEDs:SK6812mini;
+EndCmp
+
+BeginCmp
+TimeStamp = /57C01481;
+Reference = Logo1;
+ValeurCmp = Eldalim;
+IdModule  = Graphics:Eldalim_7x6_back;
+EndCmp
+
+BeginCmp
+TimeStamp = /59F2FC38;
+Reference = XP1;
+ValeurCmp = Input;
+IdModule  = Connectors:for_WS2812_PLL1.27-3;
+EndCmp
+
+BeginCmp
+TimeStamp = /59F31E3E;
+Reference = XP2;
+ValeurCmp = Output;
+IdModule  = Connectors:for_WS2812_PLL1.27-3;
+EndCmp
+
+EndListe

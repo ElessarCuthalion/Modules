@@ -1,0 +1,101 @@
+Cmp-Mod V01 Created by Cvpcb (2014-07-12 BZR 4289 GOST-COMMITTERS)-product   date = 10.09.2016 9:42:28
+
+BeginCmp
+TimeStamp = /57D29D4C;
+Reference = C1;
+ValeurCmp = 0,1uF;
+IdModule  = Capacitors:CAP0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /57D18B24;
+Reference = DA1;
+ValeurCmp = MRMS201A;
+IdModule  = SOT:SOT23-3;
+EndCmp
+
+BeginCmp
+TimeStamp = /57D18DEA;
+Reference = DA2;
+ValeurCmp = AS-V20NA-R;
+IdModule  = SOT:SON4;
+EndCmp
+
+BeginCmp
+TimeStamp = /57D190B0;
+Reference = fuse1;
+ValeurCmp = no ivert;
+IdModule  = PCB_details:FuseSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = /57D3AB01;
+Reference = HL1;
+ValeurCmp = LED_0603;
+IdModule  = LEDs:LED0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /57CD4EC5;
+Reference = HOLE1;
+ValeurCmp = HOLE_METALLED;
+IdModule  = PCB_details:Hole_for_M3_small;
+EndCmp
+
+BeginCmp
+TimeStamp = /57CD4EB6;
+Reference = HOLE2;
+ValeurCmp = HOLE_METALLED;
+IdModule  = PCB_details:Hole_for_M3_small;
+EndCmp
+
+BeginCmp
+TimeStamp = /57C01481;
+Reference = Logo1;
+ValeurCmp = Eldalim;
+IdModule  = Graphics:Eldalim_10x8_back;
+EndCmp
+
+BeginCmp
+TimeStamp = /57D1B1A4;
+Reference = R1;
+ValeurCmp = 100r;
+IdModule  = Resistors:RES0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /57D190A6;
+Reference = R2;
+ValeurCmp = 200k;
+IdModule  = Resistors:RES0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /57D24D72;
+Reference = R3;
+ValeurCmp = 10k;
+IdModule  = Resistors:RES0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /57D3AC54;
+Reference = R4;
+ValeurCmp = 1k;
+IdModule  = Resistors:RES0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /57D190A0;
+Reference = VT1;
+ValeurCmp = IRLML6402;
+IdModule  = SOT:SOT23-3;
+EndCmp
+
+BeginCmp
+TimeStamp = /57D19428;
+Reference = XP1;
+ValeurCmp = for_SENS;
+IdModule  = Connectors:for_SENS_PLS-3;
+EndCmp
+
+EndListe

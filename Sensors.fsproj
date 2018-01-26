@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project xsi:noNamespaceSchemaLocation="Project.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Version current="1"/>
+	<Format>Project</Format>
+	<Header>
+		<Program name="TopoR" version="6.1"/>
+		<GUID>{DD3FD3B4-6EC6-4481-A975-4A207B3E4934}</GUID>
+		<Annotation>Project file</Annotation>
+	</Header>
+	<Document>
+		<LocalLibrary />
+		<Pcb>
+			<File path=".\AS-V20_AS-M15_invert.fsx" Folder="-1" isopened="0"/>
+			<File path=".\AT42QT1011.fsx" Folder="-1" isopened="0"/>
+			<File path=".\AT42QT1011_simple.fsx" Folder="-1" isopened="1"/>
+			<File path=".\AS-V20_AS-M15_simple.fsx" Folder="-1" isopened="0"/>
+		</Pcb>
+		<Import>
+			<Specctra>
+			<Path name="D:\Projects\16.08.18_Candlestick_v2\Hardware\Sensors\AS-V20_AS-M15_invert.dsn"/>
+			<Path name="D:\Projects\16.08.18_Candlestick_v2\Hardware\Sensors\AT42QT1011.dsn"/>
+			<Path name="D:\Projects\16.08.18_Candlestick_v2\Sensors\AS-V20_AS-M15_invert.dsn"/>
+			<Path name="D:\Projects\16.08.18_Candlestick_v2\Sensors\AS-V20_AS-M15_simple.dsn"/>
+			<Path name="D:\Projects\16.08.18_Candlestick_v2\Sensors\AT42QT1011_simple.dsn"/>
+			</Specctra>
+		</Import>
+		<ARouteSessions>
+		</ARouteSessions>
+	</Document>
+</Project>

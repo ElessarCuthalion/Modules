@@ -1,0 +1,234 @@
+Cmp-Mod V01 Created by Cvpcb (2014-07-12 BZR 4289 GOST-COMMITTERS)-product   date = 12.01.2017 10:03:11
+
+BeginCmp
+TimeStamp = /57B71013;
+Reference = C1;
+ValeurCmp = 0,1uF;
+IdModule  = Capacitors:CAP0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /57B7130C;
+Reference = C2;
+ValeurCmp = 22uF/4,7uF;
+IdModule  = Capacitors:CAP0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /57B7126E;
+Reference = C3;
+ValeurCmp = 4,7uF/22uF;
+IdModule  = Capacitors:CAP0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /57B71186;
+Reference = C4;
+ValeurCmp = 1uF;
+IdModule  = Capacitors:CAP0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /57B781C1;
+Reference = C5;
+ValeurCmp = 0,1uF;
+IdModule  = Capacitors:CAP0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /57B720D3;
+Reference = C6;
+ValeurCmp = 22uF;
+IdModule  = Capacitors:CAP0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /57B7717D;
+Reference = C7;
+ValeurCmp = 0,1uF;
+IdModule  = Capacitors:CAP0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /57B5F679;
+Reference = DA1;
+ValeurCmp = MP2611;
+IdModule  = QFN, DFN:QFN14_3x4+PAD;
+EndCmp
+
+BeginCmp
+TimeStamp = /57B6EF21;
+Reference = fuse1;
+ValeurCmp = USB | AC;
+IdModule  = PCB_details:FuseSolder_x2_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /57B724FC;
+Reference = GB1;
+ValeurCmp = Li-ion;
+IdModule  = Connectors:PLS-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /57B6FDFC;
+Reference = HL1;
+ValeurCmp = Green;
+IdModule  = LEDs:LED0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /57B5FD2F;
+Reference = HL2;
+ValeurCmp = Red;
+IdModule  = LEDs:LED0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /57B5FDBF;
+Reference = HL3;
+ValeurCmp = Yellow;
+IdModule  = LEDs:LED0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /57B79C3B;
+Reference = HOLE1;
+ValeurCmp = HOLE_METALLED;
+IdModule  = PCB_details:Hole_for_M3_small;
+EndCmp
+
+BeginCmp
+TimeStamp = /57B79DD8;
+Reference = HOLE2;
+ValeurCmp = HOLE_METALLED;
+IdModule  = PCB_details:Hole_for_M3_small;
+EndCmp
+
+BeginCmp
+TimeStamp = /57B71C38;
+Reference = L1;
+ValeurCmp = 2,2uH;
+IdModule  = Inductors:5D28;
+EndCmp
+
+BeginCmp
+TimeStamp = /57B97096;
+Reference = Label1;
+ValeurCmp = Eldalim;
+IdModule  = Graphics:Eldalim_17x15_back;
+EndCmp
+
+BeginCmp
+TimeStamp = /57B71613;
+Reference = R1;
+ValeurCmp = 1k;
+IdModule  = Resistors:RES0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /57B71440;
+Reference = R2;
+ValeurCmp = 1k;
+IdModule  = Resistors:RES0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /57B71580;
+Reference = R3;
+ValeurCmp = 1k;
+IdModule  = Resistors:RES0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /57B74568;
+Reference = R4;
+ValeurCmp = 8,2k;
+IdModule  = Resistors:RES0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /57B743E0;
+Reference = R5;
+ValeurCmp = 10k/NC;
+IdModule  = Resistors:RES0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /57B78380;
+Reference = R6;
+ValeurCmp = 75k;
+IdModule  = Resistors:RES0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /57B71A41;
+Reference = R7;
+ValeurCmp = 0,1r;
+IdModule  = Resistors:RES1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /57B71B76;
+Reference = R8;
+ValeurCmp = 0,1r;
+IdModule  = Resistors:RES1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /57B9F1B1;
+Reference = R9;
+ValeurCmp = 100k;
+IdModule  = Resistors:RES0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /57B9EF9E;
+Reference = VT1;
+ValeurCmp = IRLML2502;
+IdModule  = SOT:SOT23-3;
+EndCmp
+
+BeginCmp
+TimeStamp = /57B78702;
+Reference = XP1;
+ValeurCmp = +Vin;
+IdModule  = Connectors:PLS-1Rnd;
+EndCmp
+
+BeginCmp
+TimeStamp = /57B78E2D;
+Reference = XP2;
+ValeurCmp = -Vin;
+IdModule  = Connectors:PLS-1Rnd;
+EndCmp
+
+BeginCmp
+TimeStamp = /57B74008;
+Reference = XP3;
+ValeurCmp = NTC;
+IdModule  = Connectors:PLS-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /57BC2EC6;
+Reference = XP4;
+ValeurCmp = Load;
+IdModule  = Connectors:PLS-1;
+EndCmp
+
+BeginCmp
+TimeStamp = /57B5F70E;
+Reference = XS1;
+ValeurCmp = mini-USB;
+IdModule  = Connectors:USB-mini_B;
+EndCmp
+
+BeginCmp
+TimeStamp = /57B6FAD7;
+Reference = XS2;
+ValeurCmp = mcro-USB;
+IdModule  = Connectors:USB-micro_B;
+EndCmp
+
+EndListe

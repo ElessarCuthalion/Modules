@@ -1,0 +1,208 @@
+(pcb "D:\Projects\16.08.18_Candlestick_v2\Sensors\AS-V20_AS-M15_simple.dsn"
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "(2014-07-12 BZR 4289 GOST-COMMITTERS)-product")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer F.Cu
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer In1.Cu
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (path pcb 0  109000 -50000  100000 -50000  100000 -56000  109000 -56000
+            109000 -50000)
+    )
+    (via "Via[0-1]_700:300_um" "Via[0-1]_900:400_um")
+    (rule
+      (width 200)
+      (clearance 200.1)
+      (clearance 200.1 (type default_smd))
+      (clearance 50 (type smd_smd))
+    )
+  )
+  (placement
+    (component Capacitors:CAP0603
+      (place C1 105000 -54200 front 90 (PN 0.1uF))
+    )
+    (component "SOT:SOT23-3"
+      (place DA1 101600 -51700 front 180 (PN MRMS201A))
+    )
+    (component SOT:SON4
+      (place DA2 102200 -54300 front 90 (PN "AS-V20NA-R"))
+    )
+    (component Graphics:Eldalim_7x6_back
+      (place Logo1 103500 -52900 back 180 (PN Eldalim))
+    )
+    (component "Connectors:for_SENS_PLS2-3"
+      (place XP1 108000 -55000 front 90 (PN Out))
+    )
+  )
+  (library
+    (image Capacitors:CAP0603
+      (outline (path signal 150  -1500 800  1500 800))
+      (outline (path signal 150  1500 800  1500 -800))
+      (outline (path signal 150  1500 -800  -1500 -800))
+      (outline (path signal 150  -1500 -800  -1500 800))
+      (pin Rect[T]Pad_900x1000_um 1 -750 0)
+      (pin Rect[T]Pad_900x1000_um 2 750 0)
+    )
+    (image "SOT:SOT23-3"
+      (outline (path signal 127  -1524 381  1524 381))
+      (outline (path signal 127  1524 381  1524 -381))
+      (outline (path signal 127  1524 -381  -1524 -381))
+      (outline (path signal 127  -1524 -381  -1524 381))
+      (pin Rect[T]Pad_800x900_um 2 950 -1000)
+      (pin Rect[T]Pad_800x900_um 1 -950 -1000)
+      (pin Rect[T]Pad_800x900_um 3 0 1000)
+    )
+    (image SOT:SON4
+      (outline (path signal 150  -800 700  800 700))
+      (outline (path signal 150  -800 1000  800 1000))
+      (outline (path signal 150  800 1000  800 -1000))
+      (outline (path signal 150  800 -1000  -800 -1000))
+      (outline (path signal 150  -800 -1000  -800 1000))
+      (pin Rect[T]Pad_900x700_um 1 -950 650)
+      (pin Oval[T]Pad_900x700_um 2 -950 -650)
+      (pin Oval[T]Pad_900x700_um 3 950 -650)
+      (pin Oval[T]Pad_900x700_um 4 950 650)
+    )
+    (image Graphics:Eldalim_7x6_back
+    )
+    (image "Connectors:for_SENS_PLS2-3"
+      (outline (path signal 150  5000 -600  4600 -1000))
+      (outline (path signal 150  3400 -1000  3000 -600))
+      (outline (path signal 150  4600 -1000  3400 -1000))
+      (outline (path signal 150  5000 600  5000 -600))
+      (outline (path signal 150  4600 1000  5000 600))
+      (outline (path signal 150  3400 1000  4600 1000))
+      (outline (path signal 150  3000 600  3400 1000))
+      (outline (path signal 150  3000 600  3400 1000))
+      (outline (path signal 150  3400 1000  4600 1000))
+      (outline (path signal 150  4600 1000  5000 600))
+      (outline (path signal 150  5000 600  5000 -600))
+      (outline (path signal 150  4600 -1000  3400 -1000))
+      (outline (path signal 150  3400 -1000  3000 -600))
+      (outline (path signal 150  5000 -600  4600 -1000))
+      (outline (path signal 150  -1000 -600  -1000 600))
+      (outline (path signal 150  -1000 600  -600 1000))
+      (outline (path signal 150  -600 1000  600 1000))
+      (outline (path signal 150  600 1000  1000 600))
+      (outline (path signal 150  1000 600  1000 -600))
+      (outline (path signal 150  600 -1000  -600 -1000))
+      (outline (path signal 150  -600 -1000  -1000 -600))
+      (outline (path signal 150  1000 -600  600 -1000))
+      (outline (path signal 150  3000 -600  2600 -1000))
+      (outline (path signal 150  1400 -1000  1000 -600))
+      (outline (path signal 150  2600 -1000  1400 -1000))
+      (outline (path signal 150  2600 1000  3000 600))
+      (outline (path signal 150  1400 1000  2600 1000))
+      (outline (path signal 150  1000 600  1400 1000))
+      (outline (path signal 150  -1000 -600  -1000 600))
+      (outline (path signal 150  -1000 600  -600 1000))
+      (outline (path signal 150  -600 1000  600 1000))
+      (outline (path signal 150  600 -1000  -600 -1000))
+      (outline (path signal 150  -600 -1000  -1000 -600))
+      (outline (path signal 150  1000 -600  600 -1000))
+      (outline (path signal 150  1000 600  600 1000))
+      (outline (path signal 150  1000 -600  1000 600))
+      (outline (path signal 150  1000 600  1400 1000))
+      (outline (path signal 150  1400 1000  2600 1000))
+      (outline (path signal 150  2600 1000  3000 600))
+      (outline (path signal 150  2600 -1000  1400 -1000))
+      (outline (path signal 150  1400 -1000  1000 -600))
+      (outline (path signal 150  3000 -600  2600 -1000))
+      (pin Round[A]Pad_1400_um 3 4000 0)
+      (pin Rect[A]Pad_1400x1400_um 1 0 0)
+      (pin Round[A]Pad_1400_um 2 2000 0)
+    )
+    (padstack Round[A]Pad_1400_um
+      (shape (circle F.Cu 1400))
+      (shape (circle In1.Cu 1400))
+      (attach off)
+    )
+    (padstack Oval[T]Pad_900x700_um
+      (shape (path F.Cu 700  -100 0  100 0))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_800x900_um
+      (shape (rect F.Cu -400 -450 400 450))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_900x700_um
+      (shape (rect F.Cu -450 -350 450 350))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_900x1000_um
+      (shape (rect F.Cu -450 -500 450 500))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_1400x1400_um
+      (shape (rect F.Cu -700 -700 700 700))
+      (shape (rect In1.Cu -700 -700 700 700))
+      (attach off)
+    )
+    (padstack "Via[0-1]_700:300_um"
+      (shape (circle F.Cu 700))
+      (shape (circle In1.Cu 700))
+      (attach off)
+    )
+    (padstack "Via[0-1]_900:400_um"
+      (shape (circle F.Cu 900))
+      (shape (circle In1.Cu 900))
+      (attach off)
+    )
+  )
+  (network
+    (net GND
+      (pins C1-2 DA1-3 DA2-4 XP1-2)
+    )
+    (net /Out
+      (pins DA1-2 DA2-2 XP1-3)
+    )
+    (net /+VCC
+      (pins C1-1 DA1-1 DA2-1 XP1-1)
+    )
+    (class kicad_default "" /Out /mode "Net-(C1-Pad1)" "Net-(C1-Pad2)" "Net-(DA2-Pad3)"
+      "Net-(E1-Pad1)"
+      (circuit
+        (use_via Via[0-1]_700:300_um)
+      )
+      (rule
+        (width 200)
+        (clearance 200.1)
+      )
+    )
+    (class wide /+VCC GND
+      (circuit
+        (use_via Via[0-1]_900:400_um)
+      )
+      (rule
+        (width 500)
+        (clearance 200.1)
+      )
+    )
+    (class "wide wide"
+      (circuit
+        (use_via Via[0-1]_900:400_um)
+      )
+      (rule
+        (width 1000)
+        (clearance 200.1)
+      )
+    )
+  )
+  (wiring
+  )
+)

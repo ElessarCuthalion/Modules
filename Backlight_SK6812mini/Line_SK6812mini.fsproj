@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project xsi:noNamespaceSchemaLocation="Project.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Version current="1"/>
+	<Format>Project</Format>
+	<Header>
+		<Program name="TopoR" version="6.1"/>
+		<GUID>{92DA6183-198C-404A-A8DF-8BEFC97D98A2}</GUID>
+		<Annotation>Project file</Annotation>
+	</Header>
+	<Document>
+		<LocalLibrary />
+		<Pcb>
+			<File path=".\Line_SK6812mini_x7.fsx" Folder="-1" isopened="0"/>
+			<File path=".\Line_SK6812mini_x5.fsx" Folder="-1" isopened="1"/>
+		</Pcb>
+		<Import>
+			<Specctra>
+			<Path name="D:\Projects\16.12.01_MusicBox2\Hardware\Backlight_SK6812mini.dsn"/>
+			<Path name="D:\Projects\16.12.01_MusicBox2\Hardware\Backlight_SK6812mini_x7.dsn"/>
+			</Specctra>
+		</Import>
+		<ARouteSessions>
+		</ARouteSessions>
+	</Document>
+</Project>

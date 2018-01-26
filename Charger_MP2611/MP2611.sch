@@ -1,0 +1,909 @@
+EESchema Schematic File Version 2
+LIBS:Audio
+LIBS:Capacitors
+LIBS:Chargers
+LIBS:DC-DC
+LIBS:Drivers
+LIBS:Inductors
+LIBS:LED
+LIBS:Opto
+LIBS:OU
+LIBS:PCB details
+LIBS:Quartz
+LIBS:Regulators
+LIBS:Resistors
+LIBS:Sensors
+LIBS:Sound
+LIBS:Switches
+LIBS:Logic
+LIBS:Diodes
+LIBS:Transistors
+LIBS:Interface
+LIBS:Modules
+LIBS:Radio
+LIBS:Relays
+LIBS:Graphics
+LIBS:Display
+LIBS:Memory
+LIBS:Motors
+LIBS:MSU
+LIBS:Power
+LIBS:Connectors
+LIBS:MP2611-cache
+EELAYER 24 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date "16 oct 2014"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Notes 7250 6950 0    197  ~ 0
+ЗУ на MP2611
+NoConn ~ 18450 -1450
+$Comp
+L mcro/mini-USB XS1
+U 1 1 57B5F70E
+P 1050 1350
+F 0 "XS1" H 1050 2100 60  0000 C CNN
+F 1 "mini-USB" H 1050 2000 60  0000 C CNN
+F 2 "Connectors:USB-mini_B" H 1300 700 60  0001 C CNN
+F 3 "" H 1400 700 60  0000 C CNN
+	1    1050 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #U01
+U 1 1 57B5F7D6
+P 1700 2150
+F 0 "#U01" V 1750 2200 60  0001 C CNN
+F 1 "GND" V 1750 2100 60  0001 C CNN
+F 2 "" H 1700 2150 60  0000 C CNN
+F 3 "" H 1700 2150 60  0000 C CNN
+	1    1700 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #U02
+U 1 1 57B5F7F1
+P 1050 2150
+F 0 "#U02" V 1100 2200 60  0001 C CNN
+F 1 "GND" V 1100 2100 60  0001 C CNN
+F 2 "" H 1050 2150 60  0000 C CNN
+F 3 "" H 1050 2150 60  0000 C CNN
+	1    1050 2150
+	1    0    0    -1  
+$EndComp
+NoConn ~ 1650 1250
+NoConn ~ 1650 1450
+$Comp
+L GND #U03
+U 1 1 57B5F843
+P 1950 2150
+F 0 "#U03" V 2000 2200 60  0001 C CNN
+F 1 "GND" V 2000 2100 60  0001 C CNN
+F 2 "" H 1950 2150 60  0000 C CNN
+F 3 "" H 1950 2150 60  0000 C CNN
+	1    1950 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #U04
+U 1 1 57B5FB94
+P 7850 3300
+F 0 "#U04" V 7900 3350 60  0001 C CNN
+F 1 "GND" V 7900 3250 60  0001 C CNN
+F 2 "" H 7850 3300 60  0000 C CNN
+F 3 "" H 7850 3300 60  0000 C CNN
+	1    7850 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED_0603 HL2
+U 1 2 57B5FD2F
+P 4250 4850
+F 0 "HL2" H 3950 5200 60  0000 C CNN
+F 1 "Red" H 3950 5100 60  0000 C CNN
+F 2 "LEDs:LED0603" H 3900 5000 60  0001 C CNN
+F 3 "" H 4250 4850 60  0000 C CNN
+	1    4250 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L MP2611 DA1
+U 1 1 57B5F679
+P 6450 1850
+F 0 "DA1" H 6450 2700 60  0000 C CNN
+F 1 "MP2611" H 6450 2600 60  0000 C CNN
+F 2 "QFN,_DFN:QFN14_3x4+PAD" H 6850 1100 60  0001 C CNN
+F 3 "" H 6650 1200 60  0000 C CNN
+	1    6450 1850
+	1    0    0    -1  
+$EndComp
+Text Label 2100 1050 0    60   ~ 0
+USB_VCC
+$Comp
+L FuseX2 fuse1
+U 1 1 57B6EF21
+P 3500 1050
+F 0 "fuse1" H 3700 750 60  0000 C CNN
+F 1 "USB | AC" H 3750 850 60  0000 C CNN
+F 2 "PCB_details:FuseSolder_x2_0603" H 3450 750 60  0001 C CNN
+F 3 "" H 3335 1050 60  0000 C CNN
+	1    3500 1050
+	0    1    1    0   
+$EndComp
+Text Label 2750 1050 0    60   ~ 0
+USB_VCC
+$Comp
+L GND #U05
+U 1 1 57B6F706
+P 5150 2350
+F 0 "#U05" V 5200 2400 60  0001 C CNN
+F 1 "GND" V 5200 2300 60  0001 C CNN
+F 2 "" H 5150 2350 60  0000 C CNN
+F 3 "" H 5150 2350 60  0000 C CNN
+	1    5150 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #U06
+U 1 1 57B6F8E8
+P 5900 3300
+F 0 "#U06" V 5950 3350 60  0001 C CNN
+F 1 "GND" V 5950 3250 60  0001 C CNN
+F 2 "" H 5900 3300 60  0000 C CNN
+F 3 "" H 5900 3300 60  0000 C CNN
+	1    5900 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #U07
+U 1 1 57B6F91A
+P 7050 3300
+F 0 "#U07" V 7100 3350 60  0001 C CNN
+F 1 "GND" V 7100 3250 60  0001 C CNN
+F 2 "" H 7050 3300 60  0000 C CNN
+F 3 "" H 7050 3300 60  0000 C CNN
+	1    7050 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #U08
+U 1 1 57B6F933
+P 7500 3300
+F 0 "#U08" V 7550 3350 60  0001 C CNN
+F 1 "GND" V 7550 3250 60  0001 C CNN
+F 2 "" H 7500 3300 60  0000 C CNN
+F 3 "" H 7500 3300 60  0000 C CNN
+	1    7500 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L mcro/mini-USB XS2
+U 1 1 57B6FAD7
+P 1050 3250
+F 0 "XS2" H 1050 4000 60  0000 C CNN
+F 1 "mcro-USB" H 1050 3900 60  0000 C CNN
+F 2 "Connectors:USB-micro_B" H 1300 2600 60  0001 C CNN
+F 3 "" H 1400 2600 60  0000 C CNN
+	1    1050 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #U09
+U 1 1 57B6FAE5
+P 1700 4050
+F 0 "#U09" V 1750 4100 60  0001 C CNN
+F 1 "GND" V 1750 4000 60  0001 C CNN
+F 2 "" H 1700 4050 60  0000 C CNN
+F 3 "" H 1700 4050 60  0000 C CNN
+	1    1700 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #U010
+U 1 1 57B6FAEB
+P 1050 4050
+F 0 "#U010" V 1100 4100 60  0001 C CNN
+F 1 "GND" V 1100 4000 60  0001 C CNN
+F 2 "" H 1050 4050 60  0000 C CNN
+F 3 "" H 1050 4050 60  0000 C CNN
+	1    1050 4050
+	1    0    0    -1  
+$EndComp
+NoConn ~ 1650 3150
+NoConn ~ 1650 3350
+Text Label 2050 2950 0    60   ~ 0
+USB_VCC
+$Comp
+L LED_0603 HL1
+U 1 2 57B6FDFC
+P 4250 5350
+F 0 "HL1" H 3950 5700 60  0000 C CNN
+F 1 "Green" H 3950 5600 60  0000 C CNN
+F 2 "LEDs:LED0603" H 3900 5500 60  0001 C CNN
+F 3 "" H 4250 5350 60  0000 C CNN
+	1    4250 5350
+	1    0    0    -1  
+$EndComp
+Text Notes 7050 5400 0    60   ~ 0
+~STAT2~     ~STAT1~     Status
+Text Notes 7050 5550 0    60   ~ 0
+0         0          Заряд
+Text Notes 7050 5700 0    60   ~ 0
+0         1          Окончание заряда
+Text Notes 9000 5700 0    60   ~ 0
+(таймаут /\nперегрев батареи /\nнеисправноеть терморезистора)
+Text Notes 7050 5850 0    60   ~ 0
+1         1          ИМС отключена
+Text Notes 9000 5950 0    60   ~ 0
+(VIN-VBAT < 0,2V /\nнет источника питания)
+$Comp
+L C_0603 C1
+U 1 1 57B71013
+P 1950 1350
+F 0 "C1" H 2100 1550 60  0000 C CNN
+F 1 "0,1uF" H 2100 1450 60  0000 C CNN
+F 2 "Capacitors:CAP0603" H 2150 1250 60  0001 C CNN
+F 3 "" H 1950 1600 60  0000 C CNN
+	1    1950 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_0603 C4
+U 1 1 57B71186
+P 5150 1950
+F 0 "C4" H 5300 2150 60  0000 C CNN
+F 1 "1uF" H 5300 2050 60  0000 C CNN
+F 2 "Capacitors:CAP0603" H 5350 1850 60  0001 C CNN
+F 3 "" H 5150 2200 60  0000 C CNN
+	1    5150 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_0805 C3
+U 1 1 57B7126E
+P 4350 1950
+F 0 "C3" H 4500 2150 60  0000 C CNN
+F 1 "4,7uF/22uF" H 4650 2050 60  0000 C CNN
+F 2 "Capacitors:CAP0805" H 4550 1850 60  0001 C CNN
+F 3 "" H 4350 2200 60  0000 C CNN
+	1    4350 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_0805 C2
+U 1 1 57B7130C
+P 3750 1950
+F 0 "C2" H 3900 2150 60  0000 C CNN
+F 1 "22uF/4,7uF" H 4050 2050 60  0000 C CNN
+F 2 "Capacitors:CAP0805" H 3950 1850 60  0001 C CNN
+F 3 "" H 3750 2200 60  0000 C CNN
+	1    3750 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_0603 R2
+U 1 1 57B71440
+P 3400 4850
+F 0 "R2" H 3400 5100 60  0000 C CNN
+F 1 "1k" H 3400 5000 60  0000 C CNN
+F 2 "Resistors:RES0603" H 3400 4700 60  0001 C CNN
+F 3 "" H 3000 4850 60  0000 C CNN
+	1    3400 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_0603 R3
+U 1 1 57B71580
+P 3400 4350
+F 0 "R3" H 3400 4600 60  0000 C CNN
+F 1 "1k" H 3400 4500 60  0000 C CNN
+F 2 "Resistors:RES0603" H 3400 4200 60  0001 C CNN
+F 3 "" H 3000 4350 60  0000 C CNN
+	1    3400 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_0603 R1
+U 1 1 57B71613
+P 3400 5350
+F 0 "R1" H 3400 5100 60  0000 C CNN
+F 1 "1k" H 3400 5200 60  0000 C CNN
+F 2 "Resistors:RES0603" H 3400 5200 60  0001 C CNN
+F 3 "" H 3000 5350 60  0000 C CNN
+	1    3400 5350
+	-1   0    0    1   
+$EndComp
+$Comp
+L R_1206 R7
+U 1 1 57B71A41
+P 8750 900
+F 0 "R7" H 8600 1050 60  0000 C CNN
+F 1 "0,1r" H 8850 1050 60  0000 C CNN
+F 2 "Resistors:RES1206" H 8750 750 60  0001 C CNN
+F 3 "" H 8350 900 60  0000 C CNN
+	1    8750 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_1206 R8
+U 1 1 57B71B76
+P 8750 1250
+F 0 "R8" H 8600 1400 60  0000 C CNN
+F 1 "0,1r" H 8850 1400 60  0000 C CNN
+F 2 "Resistors:RES1206" H 8750 1100 60  0001 C CNN
+F 3 "" H 8350 1250 60  0000 C CNN
+	1    8750 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Inductor L1
+U 1 1 57B71C38
+P 7650 1250
+F 0 "L1" H 7650 1550 60  0000 C CNN
+F 1 "2,2uH" H 7650 1450 60  0000 C CNN
+F 2 "Inductors:5D28" H 7650 1175 60  0001 C CNN
+F 3 "" H 7250 1275 60  0000 C CNN
+	1    7650 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_0805 C6
+U 1 1 57B720D3
+P 9850 1550
+F 0 "C6" H 10000 1750 60  0000 C CNN
+F 1 "22uF" H 10000 1650 60  0000 C CNN
+F 2 "Capacitors:CAP0805" H 10050 1450 60  0001 C CNN
+F 3 "" H 9850 1800 60  0000 C CNN
+	1    9850 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L BATT GB1
+U 1 1 57B724FC
+P 10400 1550
+F 0 "GB1" H 10600 1600 60  0000 L CNN
+F 1 "Li-ion" H 10600 1500 60  0000 L CNN
+F 2 "Connectors:PLS-2" H 10400 1750 60  0001 C CNN
+F 3 "" H 10400 1750 60  0000 C CNN
+	1    10400 1550
+	1    0    0    -1  
+$EndComp
+Text Notes 7050 5100 0    60   ~ 0
+Rlim = 45.3k (USB_LIM = 900mA) for USB3.0 mode\nRlim = 82.5k (USB_LIM = 500mA) for USB2.0 mode
+Text Label 5400 4850 0    60   ~ 0
+STAT1
+Text Label 5500 1850 0    60   ~ 0
+STAT1
+Text Label 5500 2050 0    60   ~ 0
+STAT2
+Text Label 5400 4350 0    60   ~ 0
+STAT2
+Text Label 5500 2250 0    60   ~ 0
+NTC
+$Comp
+L conn-2p XP3
+U 1 1 57B74008
+P 800 6350
+F 0 "XP3" H 700 6800 60  0000 C CNN
+F 1 "NTC" H 700 6700 60  0000 C CNN
+F 2 "Connectors:PLS-2" H 650 6050 60  0001 C CNN
+F 3 "" H 900 6550 60  0000 C CNN
+	1    800  6350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L R_0603 R5
+U 1 1 57B743E0
+P 1650 6550
+F 0 "R5" H 1650 6800 60  0000 C CNN
+F 1 "10k/NC" H 1650 6700 60  0000 C CNN
+F 2 "Resistors:RES0603" H 1650 6400 60  0001 C CNN
+F 3 "" H 1250 6550 60  0000 C CNN
+	1    1650 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_0603 R4
+U 1 1 57B74568
+P 1650 5750
+F 0 "R4" H 1650 6000 60  0000 C CNN
+F 1 "8,2k" H 1650 5900 60  0000 C CNN
+F 2 "Resistors:RES0603" H 1650 5600 60  0001 C CNN
+F 3 "" H 1250 5750 60  0000 C CNN
+	1    1650 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #U011
+U 1 1 57B748B9
+P 1200 6600
+F 0 "#U011" V 1250 6650 60  0001 C CNN
+F 1 "GND" V 1250 6550 60  0001 C CNN
+F 2 "" H 1200 6600 60  0000 C CNN
+F 3 "" H 1200 6600 60  0000 C CNN
+	1    1200 6600
+	1    0    0    -1  
+$EndComp
+Text Label 2350 6150 0    60   ~ 0
+NTC
+Text Label 1000 5750 0    60   ~ 0
+Vfef
+Text Notes 7050 4750 0    60   ~ 0
+Пороговые значения на входе NTC: 32% и 74% от Vref.\nДля работы устройства необхедимо: 1,056 < Vntc < 2,442 [V]
+Text Notes 6900 5450 1    60   ~ 0
+note2
+Text Notes 6900 6450 1    60   ~ 0
+note1
+Text Notes 6900 4800 1    60   ~ 0
+note4
+Text Notes 7200 2850 3    60   ~ 0
+note1
+Text Notes 7700 3100 1    60   ~ 0
+note3
+Text Notes 2600 6250 2    60   ~ 0
+note4
+Text Notes 7050 6450 0    60   ~ 0
+При указанном номинале Ctmr, время предзаряда 30мин;\nобщий цикл заряда ограничен 3 часами.
+Text Notes 6900 5150 1    60   ~ 0
+note3
+Text Notes 5650 4600 2    60   ~ 0
+note2
+$Comp
+L C_0603 C7
+U 1 1 57B7717D
+P 9450 1550
+F 0 "C7" H 9600 1750 60  0000 C CNN
+F 1 "0,1uF" H 9600 1650 60  0000 C CNN
+F 2 "Capacitors:CAP0603" H 9650 1450 60  0001 C CNN
+F 3 "" H 9450 1800 60  0000 C CNN
+	1    9450 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND_Power #U012
+U 1 1 57B77B80
+P 9850 2150
+F 0 "#U012" V 9900 2200 60  0001 C CNN
+F 1 "GND_Power" V 9900 2100 60  0001 C CNN
+F 2 "" H 9850 2150 60  0000 C CNN
+F 3 "" H 9850 2150 60  0000 C CNN
+	1    9850 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND_Power #U013
+U 1 1 57B77C75
+P 10400 2150
+F 0 "#U013" V 10450 2200 60  0001 C CNN
+F 1 "GND_Power" V 10450 2100 60  0001 C CNN
+F 2 "" H 10400 2150 60  0000 C CNN
+F 3 "" H 10400 2150 60  0000 C CNN
+	1    10400 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND_Power #U014
+U 1 1 57B77DE0
+P 3750 2350
+F 0 "#U014" V 3800 2400 60  0001 C CNN
+F 1 "GND_Power" V 3800 2300 60  0001 C CNN
+F 2 "" H 3750 2350 60  0000 C CNN
+F 3 "" H 3750 2350 60  0000 C CNN
+	1    3750 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND_Power #U015
+U 1 1 57B77E4F
+P 4350 2350
+F 0 "#U015" V 4400 2400 60  0001 C CNN
+F 1 "GND_Power" V 4400 2300 60  0001 C CNN
+F 2 "" H 4350 2350 60  0000 C CNN
+F 3 "" H 4350 2350 60  0000 C CNN
+	1    4350 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND_Power #U016
+U 1 1 57B77F59
+P 6450 3300
+F 0 "#U016" V 6500 3350 60  0001 C CNN
+F 1 "GND_Power" V 6500 3250 60  0001 C CNN
+F 2 "" H 6450 3300 60  0000 C CNN
+F 3 "" H 6450 3300 60  0000 C CNN
+	1    6450 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_0805 C5
+U 1 1 57B781C1
+P 7050 2750
+F 0 "C5" H 7200 2950 60  0000 C CNN
+F 1 "0,15uF" H 7250 2850 60  0000 C CNN
+F 2 "Capacitors:CAP0805" H 7250 2650 60  0001 C CNN
+F 3 "" H 7050 3000 60  0000 C CNN
+	1    7050 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_0805 R6
+U 1 1 57B78380
+P 7500 2750
+F 0 "R6" V 7400 2950 60  0000 C CNN
+F 1 "33k" V 7500 2950 60  0000 C CNN
+F 2 "Resistors:RES0805" H 7500 2600 60  0001 C CNN
+F 3 "" H 7100 2750 60  0000 C CNN
+	1    7500 2750
+	0    1    1    0   
+$EndComp
+$Comp
+L conn-1p XP1
+U 1 1 57B78702
+P 800 4600
+F 0 "XP1" H 700 4400 60  0000 C CNN
+F 1 "+Vin" H 700 4500 60  0000 C CNN
+F 2 "Connectors:PLS-1Rnd" H 750 4450 60  0001 C CNN
+F 3 "" H 900 4600 60  0000 C CNN
+	1    800  4600
+	-1   0    0    1   
+$EndComp
+Text Label 1150 4600 0    60   ~ 0
+USB_VCC
+$Comp
+L conn-1p XP2
+U 1 1 57B78E2D
+P 800 4950
+F 0 "XP2" H 700 4750 60  0000 C CNN
+F 1 "-Vin" H 700 4850 60  0000 C CNN
+F 2 "Connectors:PLS-1Rnd" H 750 4800 60  0001 C CNN
+F 3 "" H 900 4950 60  0000 C CNN
+	1    800  4950
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #U017
+U 1 1 57B79054
+P 1150 4950
+F 0 "#U017" V 1200 5000 60  0001 C CNN
+F 1 "GND" V 1200 4900 60  0001 C CNN
+F 2 "" H 1150 4950 60  0000 C CNN
+F 3 "" H 1150 4950 60  0000 C CNN
+	1    1150 4950
+	1    0    0    -1  
+$EndComp
+Text Notes 7050 4400 0    60   ~ 0
+Ток быстрого заряда аккумулятора: Icc[A] = 100[mV]/Rsens[mR]
+Text Notes 6900 4500 1    60   ~ 0
+note5
+Text Notes 8900 1450 2    60   ~ 0
+note5
+$Comp
+L HOLE_METALLED HOLE1
+U 1 1 57B79C3B
+P 6400 7000
+F 0 "HOLE1" H 5850 7050 60  0000 C CNN
+F 1 "HOLE_METALLED" H 5850 6950 60  0000 C CNN
+F 2 "PCB_details:Hole_for_M3_small" H 6400 7000 60  0001 C CNN
+F 3 "" H 6400 7000 60  0000 C CNN
+	1    6400 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L HOLE_METALLED HOLE2
+U 1 1 57B79DD8
+P 6400 7350
+F 0 "HOLE2" H 5850 7400 60  0000 C CNN
+F 1 "HOLE_METALLED" H 5850 7300 60  0000 C CNN
+F 2 "PCB_details:Hole_for_M3_small" H 6400 7350 60  0001 C CNN
+F 3 "" H 6400 7350 60  0000 C CNN
+	1    6400 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #U018
+U 1 1 57B79F45
+P 6800 7450
+F 0 "#U018" V 6850 7500 60  0001 C CNN
+F 1 "GND" V 6850 7400 60  0001 C CNN
+F 2 "" H 6800 7450 60  0000 C CNN
+F 3 "" H 6800 7450 60  0000 C CNN
+	1    6800 7450
+	1    0    0    -1  
+$EndComp
+NoConn ~ 1650 1650
+NoConn ~ 1650 3550
+Text Label 3750 1250 0    60   ~ 0
+ACin
+Text Label 4350 1450 0    60   ~ 0
+USBin
+Text Label 7050 1250 0    60   ~ 0
+LX1
+Text Label 8300 1250 0    60   ~ 0
+LX2
+Text Label 10100 1250 0    60   ~ 0
+Batt
+$Comp
+L Eldalim Label1
+U 1 1 57B97096
+P 10700 3500
+F 0 "Label1" H 10700 4050 60  0001 C CNN
+F 1 "Eldalim" H 10700 3950 60  0001 C CNN
+F 2 "Graphics:Eldalim_17x15_back" H 10700 3500 60  0001 C CNN
+F 3 "" H 10700 3500 60  0000 C CNN
+	1    10700 3500
+	1    0    0    -1  
+$EndComp
+Text Notes 7050 4150 0    60   ~ 0
+Нагрузочная способность Vref33 не более 20мА
+Text Notes 6900 4200 1    60   ~ 0
+note6
+Text Notes 5400 1650 2    60   ~ 0
+note6
+$Comp
+L IRLML2502 VT1
+U 1 1 57B9EF9E
+P 4750 6050
+F 0 "VT1" H 5200 6350 60  0000 C CNN
+F 1 "IRLML2502" H 5200 6250 60  0000 C CNN
+F 2 "SOT:SOT23-3" H 5250 6050 60  0001 C CNN
+F 3 "" H 4400 5900 60  0000 C CNN
+	1    4750 6050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L R_0603 R9
+U 1 1 57B9F1B1
+P 5300 6100
+F 0 "R9" V 5200 6300 60  0000 C CNN
+F 1 "100k" V 5300 6300 60  0000 C CNN
+F 2 "Resistors:RES0603" H 5300 5950 60  0001 C CNN
+F 3 "" H 4900 6100 60  0000 C CNN
+	1    5300 6100
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #U019
+U 1 1 57B9F39E
+P 5300 6550
+F 0 "#U019" V 5350 6600 60  0001 C CNN
+F 1 "GND" V 5350 6500 60  0001 C CNN
+F 2 "" H 5300 6550 60  0000 C CNN
+F 3 "" H 5300 6550 60  0000 C CNN
+	1    5300 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #U020
+U 1 1 57B9F3C8
+P 4650 6550
+F 0 "#U020" V 4700 6600 60  0001 C CNN
+F 1 "GND" V 4700 6500 60  0001 C CNN
+F 2 "" H 4650 6550 60  0000 C CNN
+F 3 "" H 4650 6550 60  0000 C CNN
+	1    4650 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED_0603 HL3
+U 1 2 57B5FDBF
+P 4250 4350
+F 0 "HL3" H 3950 4700 60  0000 C CNN
+F 1 "Yellow" H 3950 4600 60  0000 C CNN
+F 2 "LEDs:LED0603" H 3900 4500 60  0001 C CNN
+F 3 "" H 4250 4350 60  0000 C CNN
+	1    4250 4350
+	1    0    0    -1  
+$EndComp
+Text Label 5400 5350 0    60   ~ 0
+STAT1
+$Comp
+L conn-1p XP4
+U 1 1 57BC2EC6
+P 10600 900
+F 0 "XP4" H 10500 1100 60  0000 C CNN
+F 1 "Load" H 10500 1000 60  0000 C CNN
+F 2 "Connectors:PLS-1" H 10550 750 60  0001 C CNN
+F 3 "" H 10700 900 60  0000 C CNN
+	1    10600 900 
+	1    0    0    -1  
+$EndComp
+Text Notes 7300 1350 0    60   ~ 0
+5D28 (6x6mm)
+Wire Notes Line
+	50650 5500 50650 5550
+Wire Wire Line
+	1650 1050 2100 1050
+Wire Wire Line
+	3750 650  3750 1700
+Wire Wire Line
+	3750 1250 5900 1250
+Wire Wire Line
+	1950 1050 1950 1100
+Wire Wire Line
+	1700 1850 1700 2150
+Wire Wire Line
+	1650 1850 1700 1850
+Wire Wire Line
+	1950 1600 1950 2150
+Wire Wire Line
+	3750 650  3500 650 
+Connection ~ 1950 1050
+Wire Wire Line
+	3750 2200 3750 2350
+Wire Wire Line
+	4900 1650 5900 1650
+Wire Wire Line
+	5150 1650 5150 1700
+Wire Wire Line
+	3500 1450 5900 1450
+Wire Wire Line
+	4350 1450 4350 1700
+Wire Wire Line
+	7000 2050 7850 2050
+Wire Wire Line
+	7850 2050 7850 3300
+Wire Wire Line
+	3800 4850 3850 4850
+Wire Wire Line
+	3850 4350 3800 4350
+Wire Wire Line
+	4650 4850 5400 4850
+Wire Wire Line
+	5500 1850 5900 1850
+Wire Wire Line
+	4650 4350 5400 4350
+Wire Wire Line
+	2950 4350 2950 5350
+Wire Wire Line
+	2450 4850 3000 4850
+Connection ~ 2950 4850
+Wire Wire Line
+	7050 2500 7050 2450
+Wire Wire Line
+	7050 2450 7000 2450
+Wire Wire Line
+	7500 2350 7500 2250
+Wire Wire Line
+	7500 2250 7000 2250
+Connection ~ 4350 1450
+Connection ~ 3750 1250
+Wire Wire Line
+	3200 1050 2750 1050
+Wire Wire Line
+	4350 2200 4350 2350
+Wire Wire Line
+	5150 2200 5150 2350
+Wire Wire Line
+	5900 2450 5900 3300
+Wire Wire Line
+	6450 2750 6450 3300
+Wire Wire Line
+	7050 3000 7050 3300
+Wire Wire Line
+	7500 3150 7500 3300
+Wire Wire Line
+	1650 2950 2050 2950
+Wire Wire Line
+	1650 3750 1700 3750
+Wire Notes Line
+	6950 4000 6950 6500
+Wire Notes Line
+	6950 5200 11200 5200
+Wire Wire Line
+	7050 1250 7000 1250
+Wire Wire Line
+	8250 1250 8350 1250
+Wire Wire Line
+	9150 1250 10400 1250
+Wire Wire Line
+	9200 900  9200 1650
+Wire Wire Line
+	9200 900  9150 900 
+Wire Wire Line
+	8300 900  8300 1450
+Wire Wire Line
+	8300 900  8350 900 
+Connection ~ 8300 1250
+Wire Wire Line
+	8300 1450 7000 1450
+Wire Wire Line
+	9200 1650 7000 1650
+Connection ~ 9200 1250
+Wire Wire Line
+	7000 1850 9850 1850
+Wire Wire Line
+	9850 1250 9850 1300
+Wire Wire Line
+	9850 1800 9850 2150
+Connection ~ 9850 1850
+Wire Wire Line
+	10400 900  10400 1350
+Connection ~ 9850 1250
+Wire Wire Line
+	10400 1800 10400 2150
+Wire Wire Line
+	5500 2050 5900 2050
+Wire Wire Line
+	5500 2250 5900 2250
+Wire Notes Line
+	6950 4850 11200 4850
+Wire Wire Line
+	1250 5750 1000 5750
+Wire Wire Line
+	1150 6150 2350 6150
+Wire Wire Line
+	1150 6550 1250 6550
+Connection ~ 2050 6150
+Wire Notes Line
+	6950 4500 11200 4500
+Wire Notes Line
+	11150 6200 6950 6200
+Wire Wire Line
+	9450 1800 9450 1850
+Connection ~ 9450 1850
+Wire Wire Line
+	9450 1300 9450 1250
+Connection ~ 9450 1250
+Wire Wire Line
+	1150 4600 1000 4600
+Wire Wire Line
+	1150 4950 1000 4950
+Wire Notes Line
+	6950 4250 11200 4250
+Wire Wire Line
+	6750 7000 6800 7000
+Wire Wire Line
+	6800 7000 6800 7450
+Wire Wire Line
+	6750 7350 6800 7350
+Connection ~ 6800 7350
+Wire Wire Line
+	1700 3750 1700 4050
+Wire Wire Line
+	2050 5750 2050 6550
+Wire Wire Line
+	1200 6550 1200 6600
+Connection ~ 1200 6550
+Wire Notes Line
+	6950 4000 11200 4000
+Wire Wire Line
+	5100 6200 5100 6200
+Wire Wire Line
+	5100 6200 5100 5350
+Wire Wire Line
+	5100 5350 5400 5350
+Wire Wire Line
+	3000 4350 2950 4350
+Wire Wire Line
+	2950 5350 3000 5350
+Wire Wire Line
+	3850 5350 3800 5350
+Wire Wire Line
+	4650 5350 4650 5650
+Wire Wire Line
+	5300 5350 5300 5700
+Wire Wire Line
+	5300 6550 5300 6500
+Wire Wire Line
+	4650 6550 4650 6450
+Connection ~ 5300 5350
+Connection ~ 10400 1250
+Text Notes 7050 6100 0    60   ~ 0
+Выходы ~STAT1~ и ~STAT2~ с открытым стоком. Нагрузочная способность 9mA
+Text Label 2450 4850 0    60   ~ 0
+USB_VCC
+Text Notes 9550 5050 0    60   ~ 0
+(согласно спецификации)
+Text Label 4900 1650 0    60   ~ 0
+Vfef
+Connection ~ 5150 1650
+$EndSCHEMATC

@@ -1,0 +1,66 @@
+Cmp-Mod V01 Created by Cvpcb (2014-07-12 BZR 4289 GOST-COMMITTERS)-product   date = 29.06.2017 1:31:59
+
+BeginCmp
+TimeStamp = /57D18E8A;
+Reference = C1;
+ValeurCmp = 2200pF;
+IdModule  = Capacitors:CAP0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /57D445EF;
+Reference = C2;
+ValeurCmp = 0.1uF;
+IdModule  = Capacitors:CAP0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /57D18E63;
+Reference = DA1;
+ValeurCmp = AT42QT1011;
+IdModule  = SOT:SOT23-6;
+EndCmp
+
+BeginCmp
+TimeStamp = /595407DA;
+Reference = E1;
+ValeurCmp = SENS;
+IdModule  = Connectors:PBS2-1Rnd;
+EndCmp
+
+BeginCmp
+TimeStamp = /595406F9;
+Reference = fus1;
+ValeurCmp = slow | fast;
+IdModule  = PCB_details:FuseSolder_x2_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /57C01481;
+Reference = Logo1;
+ValeurCmp = Eldalim;
+IdModule  = Graphics:Eldalim_7x6_back;
+EndCmp
+
+BeginCmp
+TimeStamp = /57D19022;
+Reference = R1;
+ValeurCmp = 1k/4.7k;
+IdModule  = Resistors:RES0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /595405DA;
+Reference = XP1;
+ValeurCmp = Out;
+IdModule  = Connectors:for_SENS_PLS2-3;
+EndCmp
+
+BeginCmp
+TimeStamp = /59542E66;
+Reference = XP2;
+ValeurCmp = Mode;
+IdModule  = Connectors:PLS2-1Rnd;
+EndCmp
+
+EndListe
