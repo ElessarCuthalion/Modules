@@ -1,0 +1,325 @@
+Cmp-Mod V01 Created by Cvpcb (2014-07-12 BZR 4289 GOST-COMMITTERS)-product   date = 15.02.2018 0:53:34
+
+BeginCmp
+TimeStamp = /5A6B9486;
+Reference = C1;
+ValeurCmp = 0.1uF;
+IdModule  = Capacitors:CAP0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5A84B713;
+Reference = C2;
+ValeurCmp = 22uF;
+IdModule  = Capacitors:CAP0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5A6B9FF4;
+Reference = C3;
+ValeurCmp = 1uF;
+IdModule  = Capacitors:CAP0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5A6D3761;
+Reference = C4;
+ValeurCmp = 0.1uF;
+IdModule  = Capacitors:CAP0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5A84E499;
+Reference = C5;
+ValeurCmp = 120pF;
+IdModule  = Capacitors:CAP0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5A718E7A;
+Reference = C6;
+ValeurCmp = 0.1uF;
+IdModule  = Capacitors:CAP0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5A77F30F;
+Reference = C7;
+ValeurCmp = 22uF;
+IdModule  = Capacitors:CAP0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5A77F869;
+Reference = C8;
+ValeurCmp = 22uF;
+IdModule  = Capacitors:CAP0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5A715EE3;
+Reference = C9;
+ValeurCmp = 22uF;
+IdModule  = Capacitors:CAP0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5A716B95;
+Reference = C10;
+ValeurCmp = 22uF;
+IdModule  = Capacitors:CAP0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5A84C77A;
+Reference = C11;
+ValeurCmp = 47uF;
+IdModule  = Capacitors:CAP1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /5A6B9C49;
+Reference = DA1;
+ValeurCmp = MP2637;
+IdModule  = QFN,_DFN,_LGA:FCQFN24;
+EndCmp
+
+BeginCmp
+TimeStamp = /5A71789F;
+Reference = GB1;
+ValeurCmp = Li-ion;
+IdModule  = Connectors:for_PolarOut_PLL1.27-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5A70B7C1;
+Reference = HL1;
+ValeurCmp = Red;
+IdModule  = LEDs:LED0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5A711872;
+Reference = HL2;
+ValeurCmp = Green;
+IdModule  = LEDs:LED0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5A711D5B;
+Reference = HL3;
+ValeurCmp = Blue;
+IdModule  = LEDs:LED0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5A6B99FD;
+Reference = Hole1;
+ValeurCmp = HoleMetalled;
+IdModule  = PCB_details:Hole_for_M3_small;
+EndCmp
+
+BeginCmp
+TimeStamp = /5A6B9A3C;
+Reference = Hole2;
+ValeurCmp = HoleMetalled;
+IdModule  = PCB_details:Hole_for_M3_small;
+EndCmp
+
+BeginCmp
+TimeStamp = /5A7148D8;
+Reference = L1;
+ValeurCmp = 2.2uH;
+IdModule  = Inductors:IND_6x6_5D28;
+EndCmp
+
+BeginCmp
+TimeStamp = /57B97096;
+Reference = Label1;
+ValeurCmp = Eldalim;
+IdModule  = Graphics:Eldalim_17x15_back;
+EndCmp
+
+BeginCmp
+TimeStamp = /5A6D45EE;
+Reference = R1;
+ValeurCmp = 10k;
+IdModule  = Resistors:RES0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5A6E6DC4;
+Reference = R2;
+ValeurCmp = 10k;
+IdModule  = Resistors:RES0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5A7CC71F;
+Reference = R3;
+ValeurCmp = 10k;
+IdModule  = Resistors:RES0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5A6BA13B;
+Reference = R4;
+ValeurCmp = 13k;
+IdModule  = Resistors:RES0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5A6BA29D;
+Reference = R5;
+ValeurCmp = 4.7k;
+IdModule  = Resistors:RES0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5A6CD03A;
+Reference = R6;
+ValeurCmp = 22k;
+IdModule  = Resistors:RES0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5A6CD048;
+Reference = R7;
+ValeurCmp = 5.1k;
+IdModule  = Resistors:RES0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5A6D0C6C;
+Reference = R8;
+ValeurCmp = 18k;
+IdModule  = Resistors:RES0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5A775B43;
+Reference = R9;
+ValeurCmp = 10k;
+IdModule  = Resistors:RES0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5A775B4B;
+Reference = R10;
+ValeurCmp = 10k;
+IdModule  = Resistors:RES0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5A70DC46;
+Reference = R11;
+ValeurCmp = 2k;
+IdModule  = Resistors:RES0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5A71187C;
+Reference = R12;
+ValeurCmp = 2k;
+IdModule  = Resistors:RES0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5A711D64;
+Reference = R13;
+ValeurCmp = 2k;
+IdModule  = Resistors:RES0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5A77CF4E;
+Reference = R14;
+ValeurCmp = 15k;
+IdModule  = Resistors:RES0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5A77CF56;
+Reference = R15;
+ValeurCmp = 4.7k;
+IdModule  = Resistors:RES0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5A7CB8F2;
+Reference = R16;
+ValeurCmp = 51k;
+IdModule  = Resistors:RES0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5A71A699;
+Reference = R17;
+ValeurCmp = 51k;
+IdModule  = Resistors:RES0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5A71519B;
+Reference = R18;
+ValeurCmp = 0.02r;
+IdModule  = Resistors:RES0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5A84C920;
+Reference = TP1;
+ValeurCmp = VCC;
+IdModule  = PCB_details:TestPoint_1mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /5A6B9602;
+Reference = XP1;
+ValeurCmp = +Vin;
+IdModule  = Connectors:PLS-1;
+EndCmp
+
+BeginCmp
+TimeStamp = /5A6B98AF;
+Reference = XP2;
+ValeurCmp = -Vin;
+IdModule  = Connectors:PLS-1Rnd;
+EndCmp
+
+BeginCmp
+TimeStamp = /5A6E4DBA;
+Reference = XP3;
+ValeurCmp = NTC;
+IdModule  = Connectors:PLS2-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5A7769CC;
+Reference = XP4;
+ValeurCmp = Boost EN;
+IdModule  = Connectors:PLS2-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5A78010A;
+Reference = XP5;
+ValeurCmp = 5V out;
+IdModule  = Connectors:for_PolarOut_PLS-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5A6B8F17;
+Reference = XS1;
+ValeurCmp = USB-mini;
+IdModule  = Connectors:USB-mini_B;
+EndCmp
+
+BeginCmp
+TimeStamp = /5A6B8F62;
+Reference = XS2;
+ValeurCmp = USB-micro;
+IdModule  = Connectors:USB-micro_B;
+EndCmp
+
+EndListe

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project xsi:noNamespaceSchemaLocation="Project.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Version current="1"/>
+	<Format>Project</Format>
+	<Header>
+		<Program name="TopoR" version="6.1"/>
+		<GUID>{2BBB0713-B84F-4822-B1B7-248D91FD2BF0}</GUID>
+		<Annotation>Project file</Annotation>
+	</Header>
+	<Document>
+		<LocalLibrary />
+		<Pcb>
+			<File path=".\MP2611.fsx" Folder="-1" isopened="1"/>
+		</Pcb>
+		<Import>
+			<Specctra>
+			<Path name="D:\Projects\14.06. fakel 1 Progulochniy\Hardware\зарядка v.5 TP5100\TP5100.dsn"/>
+			<Path name="D:\Projects\TP5100\TP5100.dsn"/>
+			<Path name="D:\Projects\16.08.18_Candlestick_v2\Hardware\MP2611.dsn"/>
+			<Path name="D:\Projects\16.08.18_Candlestick_v2\Hardware\MP2611\MP2611.dsn"/>
+			<Path name="D:\Projects\16.08.18_Candlestick_v2\MP2611\MP2611.dsn"/>
+			</Specctra>
+		</Import>
+		<ARouteSessions>
+		</ARouteSessions>
+	</Document>
+</Project>
