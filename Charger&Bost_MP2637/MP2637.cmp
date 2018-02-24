@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-07-12 BZR 4289 GOST-COMMITTERS)-product   date = 15.02.2018 0:53:34
+Cmp-Mod V01 Created by Cvpcb (2014-07-12 BZR 4289 GOST-COMMITTERS)-product   date = 24.02.2018 19:36:15
 
 BeginCmp
 TimeStamp = /5A6B9486;
@@ -50,31 +50,24 @@ IdModule  = Capacitors:CAP0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /5A77F869;
-Reference = C8;
-ValeurCmp = 22uF;
-IdModule  = Capacitors:CAP0805;
-EndCmp
-
-BeginCmp
 TimeStamp = /5A715EE3;
-Reference = C9;
+Reference = C8;
 ValeurCmp = 22uF;
 IdModule  = Capacitors:CAP0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /5A716B95;
-Reference = C10;
+Reference = C9;
 ValeurCmp = 22uF;
 IdModule  = Capacitors:CAP0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /5A84C77A;
-Reference = C11;
-ValeurCmp = 47uF;
-IdModule  = Capacitors:CAP1206;
+TimeStamp = /5A77F869;
+Reference = C10;
+ValeurCmp = 22uF;
+IdModule  = Capacitors:CAP0805;
 EndCmp
 
 BeginCmp
@@ -88,7 +81,7 @@ BeginCmp
 TimeStamp = /5A71789F;
 Reference = GB1;
 ValeurCmp = Li-ion;
-IdModule  = Connectors:for_PolarOut_PLL1.27-2;
+IdModule  = Connectors:for_PolarOut_PLS-2;
 EndCmp
 
 BeginCmp
@@ -291,7 +284,7 @@ BeginCmp
 TimeStamp = /5A6E4DBA;
 Reference = XP3;
 ValeurCmp = NTC;
-IdModule  = Connectors:PLS2-2;
+IdModule  = Connectors:PLS-2;
 EndCmp
 
 BeginCmp
