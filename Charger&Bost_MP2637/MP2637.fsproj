@@ -10,15 +10,15 @@
 	<Document>
 		<LocalLibrary />
 		<Pcb>
-			<File path=".\MP2611.fsx" Folder="-1" isopened="1"/>
+			<File path=".\MP2637.fsx" Folder="-1" isopened="1"/>
 		</Pcb>
 		<Import>
 			<Specctra>
-			<Path name="D:\Projects\14.06. fakel 1 Progulochniy\Hardware\зарядка v.5 TP5100\TP5100.dsn"/>
 			<Path name="D:\Projects\TP5100\TP5100.dsn"/>
 			<Path name="D:\Projects\16.08.18_Candlestick_v2\Hardware\MP2611.dsn"/>
 			<Path name="D:\Projects\16.08.18_Candlestick_v2\Hardware\MP2611\MP2611.dsn"/>
 			<Path name="D:\Projects\16.08.18_Candlestick_v2\MP2611\MP2611.dsn"/>
+			<Path name="D:\Projects\18.01.26_Modules\Charger&Bost_MP2637\MP2637.dsn"/>
 			</Specctra>
 		</Import>
 		<ARouteSessions>
