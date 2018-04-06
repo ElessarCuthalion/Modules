@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<?validation-md5-digest 9e0be1aab55cc3eaead4a6d0fbd0ef46?>
+<?validation-md5-digest f878ffdf39beaa2bb124c6141c83d742?>
 <worksheet version="3.0.3" xmlns="http://schemas.mathsoft.com/worksheet30" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ws="http://schemas.mathsoft.com/worksheet30" xmlns:ml="http://schemas.mathsoft.com/math30" xmlns:u="http://schemas.mathsoft.com/units10" xmlns:p="http://schemas.mathsoft.com/provenance10" xmlns:prd="http://schemas.mathsoft.com/point-release-data">
 	<pointReleaseData/>
 	<metadata>
@@ -13,9 +13,9 @@
 			<revisedBy>Elessar</revisedBy>
 		</userData>
 		<identityInfo>
-			<revision>79</revision>
+			<revision>80</revision>
 			<documentID>9EE1C5DC-4F68-4EE2-9221-9A2CEA1253E6</documentID>
-			<versionID>8740622E-1E88-478E-8ECC-B8CA3F2085C4</versionID>
+			<versionID>F28AAEB1-E142-4D27-AE53-22B3A40F615B</versionID>
 			<parentVersionID>00000000-0000-0000-0000-000000000000</parentVersionID>
 			<branchID>00000000-0000-0000-0000-000000000000</branchID>
 		</identityInfo>
@@ -1192,12 +1192,36 @@
 			</math>
 			<rendering item-idref="35"/>
 		</region>
-		<region region-id="3480" left="60" top="1535.25" width="246" height="23.25" align-x="77.25" align-y="1554" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+		<region region-id="3480" left="60" top="1535.25" width="324" height="28.5" align-x="77.25" align-y="1554" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
 			<text use-page-width="false" push-down="false" lock-width="true">
 				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">
 					<f size="20">
 						<u>
-							<inlineAttr font-weight="normal">Вывести заново формулы! </inlineAttr>
+							<inlineAttr font-weight="normal">Вывести заново формулы R</inlineAttr>
+						</u>
+					</f>
+					<f size="20">
+						<u>
+							<inlineAttr font-weight="normal">
+								<sub>T1</sub>
+							</inlineAttr>
+						</u>
+					</f>
+					<f size="20">
+						<inlineAttr font-weight="normal">
+							<u> R</u>
+						</inlineAttr>
+					</f>
+					<f size="20">
+						<u>
+							<inlineAttr font-weight="normal">
+								<sub>T2</sub>
+							</inlineAttr>
+						</u>
+					</f>
+					<f size="20">
+						<u>
+							<inlineAttr font-weight="normal">! </inlineAttr>
 						</u>
 					</f>
 				</p>
@@ -1345,24 +1369,24 @@
 					<i>На заметку:</i>
 				</p>
 				<p style="Normal" margin-left="0" margin-right="0" text-indent="inherit" text-align="left" list-style-type="inherit" tabs="inherit">
-					<i>R1 </i>
-					<i>= 6.8k, R2 = 27k </i>
+					<i>R2 </i>
+					<i>= 6.8k, R1 = 27k </i>
 					<i>=&gt; </i>V<i>
 						<sub>SYS</sub>
 					</i>
 					<i> = 5.96V</i>
 				</p>
 				<p style="Normal" margin-left="0" margin-right="0" text-indent="inherit" text-align="left" list-style-type="inherit" tabs="inherit">
-					<i>R1 </i>
-					<i>= 9.1k, R2 = 36k </i>
+					<i>R2 </i>
+					<i>= 9.1k, R1 = 36k </i>
 					<i>=&gt; </i>V<sub>
 						<i>SYS</i>
 					</sub>
 					<i> = 5.95V</i>
 				</p>
 				<p style="Normal" margin-left="0" margin-right="0" text-indent="inherit" text-align="left" list-style-type="inherit" tabs="inherit">
-					<i>R1 </i>
-					<i>= 5.1k, R2 = 20k </i>
+					<i>R2 </i>
+					<i>= 5.1k, R1 = 20k </i>
 					<i>=&gt; </i>V<i>
 						<sub>SYS</sub>
 					</i>
@@ -1370,24 +1394,24 @@
 				</p>
 				<p style="Normal" margin-left="0" margin-right="0" text-indent="inherit" text-align="left" list-style-type="inherit" tabs="inherit"/>
 				<p style="Normal" margin-left="0" margin-right="0" text-indent="inherit" text-align="left" list-style-type="inherit" tabs="inherit">
-					<i>R1 </i>
-					<i>= 7.5k, R2 = 24k </i>
+					<i>R2 </i>
+					<i>= 7.5k, R1 = 24k </i>
 					<i>=&gt; </i>V<i>
 						<sub>SYS</sub>
 					</i>
 					<i> = 5.04V</i>
 				</p>
 				<p style="Normal" margin-left="0" margin-right="0" text-indent="inherit" text-align="left" list-style-type="inherit" tabs="inherit">
-					<i>R1 </i>
-					<i>= 4.7k, R2 = 15k </i>
+					<i>R2 </i>
+					<i>= 4.7k, R1 = 15k </i>
 					<i>=&gt; </i>V<sub>
 						<i>SYS</i>
 					</sub>
 					<i> = 5.04V</i>
 				</p>
 				<p style="Normal" margin-left="0" margin-right="0" text-indent="inherit" text-align="left" list-style-type="inherit" tabs="inherit">
-					<i>R1 </i>
-					<i>= 5.1k, R2 = 16k </i>
+					<i>R2 </i>
+					<i>= 5.1k, R1 = 16k </i>
 					<i>=&gt; </i>V<i>
 						<sub>SYS</sub>
 					</i>
@@ -1395,8 +1419,8 @@
 				</p>
 				<p style="Normal" margin-left="0" margin-right="0" text-indent="inherit" text-align="left" list-style-type="inherit" tabs="inherit"/>
 				<p style="Normal" margin-left="0" margin-right="0" text-indent="inherit" text-align="left" list-style-type="inherit" tabs="inherit">
-					<i>R1 </i>
-					<i>= 6.8k, R2 = 18k </i>
+					<i>R2 </i>
+					<i>= 6.8k, R1 = 18k </i>
 					<i>=&gt; </i>V<sub>
 						<i>SYS</i>
 					</sub>
@@ -1410,40 +1434,40 @@
 					<i>Целые величины:</i>
 				</p>
 				<p style="Normal" margin-left="0" margin-right="0" text-indent="inherit" text-align="left" list-style-type="inherit" tabs="inherit">
-					<i>R1 </i>
-					<i>= 12k, R2 = 47k </i>
+					<i>R2 </i>
+					<i>= 12k, R1 = 47k </i>
 					<i>=&gt; </i>V<i>
 						<sub>SYS</sub>
 					</i>
 					<i> = 5.9V</i>
 				</p>
 				<p style="Normal" margin-left="0" margin-right="0" text-indent="inherit" text-align="left" list-style-type="inherit" tabs="inherit">
-					<i>R1 </i>
-					<i>= 12k, R2 = 43k </i>
+					<i>R2 </i>
+					<i>= 12k, R1 = 43k </i>
 					<i>=&gt; </i>V<sub>
 						<i>SYS</i>
 					</sub>
 					<i> = 5.5V</i>
 				</p>
 				<p style="Normal" margin-left="0" margin-right="0" text-indent="inherit" text-align="left" list-style-type="inherit" tabs="inherit">
-					<i>R1 </i>
-					<i>= 12k, R2 = 39k </i>
+					<i>R2 </i>
+					<i>= 12k, R1 = 39k </i>
 					<i>=&gt; </i>V<sub>
 						<i>SYS</i>
 					</sub>
 					<i> = 5.1V</i>
 				</p>
 				<p style="Normal" margin-left="0" margin-right="0" text-indent="inherit" text-align="left" list-style-type="inherit" tabs="inherit">
-					<i>R1 </i>
-					<i>= 12k, R2 = 36k </i>
+					<i>R2 </i>
+					<i>= 12k, R1 = 36k </i>
 					<i>=&gt; </i>V<i>
 						<sub>SYS</sub>
 					</i>
 					<i> = 4,8V</i>
 				</p>
 				<p style="Normal" margin-left="0" margin-right="0" text-indent="inherit" text-align="left" list-style-type="inherit" tabs="inherit">
-					<i>R1 </i>
-					<i>= 12k, R2 = 33k </i>
+					<i>R2 </i>
+					<i>= 12k, R1 = 33k </i>
 					<i>=&gt; </i>V<i>
 						<sub>SYS</sub>
 					</i>
@@ -1451,7 +1475,7 @@
 				</p>
 				<p style="Normal" margin-left="0" margin-right="0" text-indent="inherit" text-align="left" list-style-type="inherit" tabs="inherit">
 					<b>
-						<i>R1 = 12k, R2 = 30k =&gt; </i>
+						<i>R2 = 12k, R1 = 30k =&gt; </i>
 					</b>
 					<b>V</b>
 					<b>
@@ -1646,9 +1670,7 @@
 		<region region-id="4137" left="60" top="2216.25" width="159.75" height="27" align-x="72.75" align-y="2226" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
 			<text use-page-width="false" push-down="false" lock-width="false">
 				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">(максимальный выходной ток 2.4A)</p>
-				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">R<sub>OLIM</sub>
-					<inlineAttr> не может быть ниже 47.5k !</inlineAttr>
-				</p>
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">R<sub>OLIM</sub> не может быть ниже 47.5k !</p>
 			</text>
 		</region>
 		<region region-id="4165" left="60" top="2264.25" width="169.5" height="12" align-x="60" align-y="2274" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
@@ -1664,25 +1686,13 @@
 				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">
 					<u>1. Ограничение выходного тока в режиме повышающего преобразователя</u>
 				</p>
-				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">Когда выходной ток достигает предела, установленного R<sub>OLIM</sub>
-					<inlineAttr>, ток стабилизируется, для чего выходное напряжение будет снижено.</inlineAttr>
-				</p>
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">Когда выходной ток достигает предела, установленного R<sub>OLIM</sub>, ток стабилизируется, для чего выходное напряжение будет снижено.</p>
 				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">
-					<u>
-						<inlineAttr>2. Режим понижения</inlineAttr>
-					</u>
+					<u>2. Режим понижения</u>
 				</p>
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">Когда V<sub>SYS</sub> падает ниже V<sub>BATT</sub> + 100mV, повышающий преобразователь переходит в режим понижения и отключается на 120uS</p>
 				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">
-					<inlineAttr>Когда V</inlineAttr>
-					<sub>SYS</sub>
-					<inlineAttr> падает ниже V</inlineAttr>
-					<sub>BATT</sub>
-					<inlineAttr> + 100mV, повышающий преобразователь переходит в режим понижения и отключается на 120uS</inlineAttr>
-				</p>
-				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">
-					<inlineAttr>
-						<u>3. Защита от короткого замыкания</u>
-					</inlineAttr>
+					<u>3. Защита от короткого замыкания</u>
 				</p>
 				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">Когда V<sub>SYS</sub> падает ниже 3.75V, преобразователь немедленно отключается. Преобразователь восстановит работу через 1mS</p>
 			</text>
@@ -2215,10 +2225,10 @@
 					<region region-id="1846" left="138" top="3040.5" width="154.5" height="35.25" align-x="161.25" align-y="3060" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
 						<math optimize="false" disable-calc="false">
 							<ml:provenance expr-id="1" xmlns:ml="http://schemas.mathsoft.com/math30">
-								<originRef doc-id="9EE1C5DC-4F68-4EE2-9221-9A2CEA1253E6" version-id="37890C6C-1C2A-4C69-9822-ABF5C7C483C6" branch-id="00000000-0000-0000-0000-000000000000" revision-num="95137180" is-modified="true" region-id="1757" href="D:\Projects\16.08.18_Candlestick_v2\Hardware\MP2611.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+								<originRef doc-id="9EE1C5DC-4F68-4EE2-9221-9A2CEA1253E6" version-id="37890C6C-1C2A-4C69-9822-ABF5C7C483C6" branch-id="00000000-0000-0000-0000-000000000000" revision-num="97378420" is-modified="true" region-id="1757" href="D:\Projects\16.08.18_Candlestick_v2\Hardware\MP2611.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
 									<hash/>
 								</originRef>
-								<parentRef doc-id="9EE1C5DC-4F68-4EE2-9221-9A2CEA1253E6" version-id="37890C6C-1C2A-4C69-9822-ABF5C7C483C6" branch-id="00000000-0000-0000-0000-000000000000" revision-num="95137580" is-modified="true" region-id="1757" href="D:\Projects\16.08.18_Candlestick_v2\Hardware\MP2611.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+								<parentRef doc-id="9EE1C5DC-4F68-4EE2-9221-9A2CEA1253E6" version-id="37890C6C-1C2A-4C69-9822-ABF5C7C483C6" branch-id="00000000-0000-0000-0000-000000000000" revision-num="97378980" is-modified="true" region-id="1757" href="D:\Projects\16.08.18_Candlestick_v2\Hardware\MP2611.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
 									<hash/>
 								</parentRef>
 								<comment xmlns="http://schemas.mathsoft.com/provenance10"/>
@@ -2249,7 +2259,7 @@
 						</math>
 						<rendering item-idref="66">
 							<element-image-map>
-								<box left="1.5" top="0.75" width="153" height="33.75" expr-idref="1" xmlns="http://schemas.mathsoft.com/worksheet30"/>
+								<box left="1.5" top="39.75" width="153" height="33.75" expr-idref="1" xmlns="http://schemas.mathsoft.com/worksheet30"/>
 							</element-image-map>
 						</rendering>
 					</region>
