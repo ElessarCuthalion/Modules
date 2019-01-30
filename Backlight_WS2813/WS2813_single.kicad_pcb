@@ -1,9 +1,6 @@
-(kicad_pcb (version 4) (host pcbnew "(2014-07-12 BZR 4289 GOST-COMMITTERS)-product")
+(kicad_pcb (version 20171130) (host pcbnew "(5.0.0-rc2-dev-596-gcfd2f1d00)")
 
   (general
-    (links 10)
-    (no_connects 0)
-    (area 94.653571 45.424999 183.575001 65.075001)
     (thickness 1.6)
     (drawings 16)
     (tracks 51)
@@ -53,8 +50,11 @@
     (grid_origin 100 50)
     (visible_elements 7FFFFF7F)
     (pcbplotparams
-      (layerselection 0x010f0_80000001)
+      (layerselection 0x010f0_ffffffff)
       (usegerberextensions true)
+      (usegerberattributes false)
+      (usegerberadvancedattributes false)
+      (creategerberjobfile false)
       (gerberprecision 5)
       (excludeedgelayer true)
       (linewidth 0.150000)
@@ -65,7 +65,6 @@
       (hpglpennumber 1)
       (hpglpenspeed 20)
       (hpglpendiameter 15)
-      (hpglpenoverlay 2)
       (psnegative false)
       (psa4output false)
       (plotreference true)

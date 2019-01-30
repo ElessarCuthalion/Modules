@@ -1,7 +1,7 @@
 (export (version D)
   (design
-    (source D:\Projects\18.01.26_Modules\Backlight_WS2813\WS2813_single.sch)
-    (date "13.11.2018 19:11:51")
+    (source D:\Projects\18.01.26_Modules\Backlight_WS2813\WS2813_single_side_conn.sch)
+    (date "30.01.2019 15:24:13")
     (tool "Eeschema (5.0.0-rc2-dev-596-gcfd2f1d00)")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -9,7 +9,7 @@
         (company)
         (rev)
         (date "14 Февраль 2017 'г.'")
-        (source WS2813_single.sch)
+        (source WS2813_single_side_conn.sch)
         (comment (number 1) (value ""))
         (comment (number 2) (value ""))
         (comment (number 3) (value ""))
@@ -22,7 +22,7 @@
       (tstamp 57C01481))
     (comp (ref XP2)
       (value OUT)
-      (footprint Connectors:for_WS2813_AVX_00-9176)
+      (footprint PCB_details:Castellated_x4R_0.8mm)
       (fields
         (field (name Step) "h 2mm"))
       (libsource (lib Connectors) (part for_WS2813))
@@ -30,7 +30,7 @@
       (tstamp 5A0DE62D))
     (comp (ref XP1)
       (value IN)
-      (footprint Connectors:for_WS2813_AVX_00-9176)
+      (footprint PCB_details:Castellated_x4_0.8mm)
       (fields
         (field (name Step) "h 2mm"))
       (libsource (lib Connectors) (part for_WS2813))

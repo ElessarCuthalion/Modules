@@ -1,24 +1,29 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Project xsi:noNamespaceSchemaLocation="Project.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<Version current="1"/>
-	<Format>Project</Format>
-	<Header>
-		<Program name="TopoR" version="6.1"/>
-		<GUID>{80441070-D4BA-4975-94E9-A27964D369D5}</GUID>
-		<Annotation>Project file</Annotation>
-	</Header>
-	<Document>
-		<LocalLibrary />
-		<Pcb>
-			<File path=".\WS2813_single.fsx" Folder="-1" isopened="1"/>
-		</Pcb>
-		<Documents path="D:\Projects\16.08.18_Candlestick_v2\Hardware_v2\"/>
-		<Import>
-			<Specctra>
-			<Path name="D:\Projects\16.08.18_Candlestick_v2\Hardware_v2\WS2813_single.dsn"/>
-			</Specctra>
-		</Import>
-		<ARouteSessions>
-		</ARouteSessions>
-	</Document>
+<?xml version="1.0" encoding="UTF-8"?>
+<!--*****************************************-->
+<!--   File    : WS2813_single.fsproj        -->
+<!--   Format  : TopoR Project file          -->
+<!--   Version : 1                           -->
+<!--   Program : TopoR Lite 7.0.18344 Beta   -->
+<!--   Date    : Wednesday, January 30, 2019 -->
+<!--   Time    : 17:15                       -->
+<!--*****************************************-->
+
+<Project>
+   <Version current="1"/>
+   <Header>
+      <GUID>{80441070-D4BA-4975-94E9-A27964D369D5}</GUID>
+   </Header>
+   <Document>
+      <Pcb>
+         <File path=".\WS2813_single.fsx" isopened="0" dateChange="2019-01-29 21:33:44"/>
+         <File path=".\WS2813_single_side_conn.fsx" isopened="0" dateChange="2019-01-30 16:20:14"/>
+      </Pcb>
+      <Import>
+         <Specctra>
+            <Path name="D:\Projects\16.08.18_Candlestick_v2\Hardware_v2\WS2813_single.dsn"/>
+            <Path name="D:\Projects\18.01.26_Modules\Backlight_WS2813\WS2813_single_side_conn.dsn"/>
+         </Specctra>
+      </Import>
+      <ARouteSessions/>
+   </Document>
 </Project>
