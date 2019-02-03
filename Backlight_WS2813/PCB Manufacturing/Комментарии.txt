@@ -1,0 +1,40 @@
+Project name "WS2813_single_side_conn_small"
+
+PCB Base Material: FR-4
+Layers: 2 Layers
+PCB Dimensions: 7.2x9.6 mm
+PCB Thickness: 1.6 mm
+Copper Thickness: 35 um (1oz)
+PCB Color (Solder Mask): White
+Silkscreen legend color: Green
+Surface Finishing: HASL
+Plated Half-holes (Castellated Holes): Yes
+Testing: Fly Probe Testing (E-test)
+
+Quantity: 500 pcs.
+You may panelize the boards.
+
+----------------------------------------------------------------
+LDJ	(ldj-china@mail.ru	8 905 756 0166)
+
+
+SPsemshine	(www.sempcb.com 	sales2@sempcb.com)
+
+
+SJPCB Official Store	(ru.aliexpress.com/store/129841	pcbpcba87@gmail.com)
+
+
+DNC Electronics Co., Ltd.	(www.dnctek.com	sales006@dnctek.com)
+
+
+OurPCB	(www.ourpcb.com	sales03@ourpcb.com)
+
+
+DNC Electronics Co., Ltd.	(www.dnctek.com	sales006@dnctek.com)
+
+
+BOKTECH	(www.boktech.cc	order@boktech.cc)
+
+
+Ucreate PCB Co., Ltd	(www.ucreatepcb.com	sales11@ucreatepcb.com)
+

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--*****************************************-->
-<!--   File    : WS2813_single.fsproj        -->
-<!--   Format  : TopoR Project file          -->
-<!--   Version : 1                           -->
-<!--   Program : TopoR Lite 7.0.18344 Beta   -->
-<!--   Date    : Wednesday, January 30, 2019 -->
-<!--   Time    : 17:15                       -->
-<!--*****************************************-->
+<!--****************************************-->
+<!--   File    : WS2813_single.fsproj       -->
+<!--   Format  : TopoR Project file         -->
+<!--   Version : 1                          -->
+<!--   Program : TopoR Lite 7.0.18344 Beta  -->
+<!--   Date    : Thursday, January 31, 2019 -->
+<!--   Time    : 11:52                      -->
+<!--****************************************-->
 
 <Project>
    <Version current="1"/>
@@ -16,12 +16,14 @@
    <Document>
       <Pcb>
          <File path=".\WS2813_single.fsx" isopened="0" dateChange="2019-01-29 21:33:44"/>
-         <File path=".\WS2813_single_side_conn.fsx" isopened="0" dateChange="2019-01-30 16:20:14"/>
+         <File path=".\WS2813_single_side_conn.fsx" isopened="0" dateChange="2019-01-30 17:14:56"/>
+         <File path=".\WS2813_single_side_conn_small.fsx" isopened="1" dateChange="2019-01-31 11:15:36"/>
       </Pcb>
       <Import>
          <Specctra>
             <Path name="D:\Projects\16.08.18_Candlestick_v2\Hardware_v2\WS2813_single.dsn"/>
             <Path name="D:\Projects\18.01.26_Modules\Backlight_WS2813\WS2813_single_side_conn.dsn"/>
+            <Path name="D:\Projects\18.01.26_Modules\Backlight_WS2813\WS2813_single_side_conn_small.dsn"/>
          </Specctra>
       </Import>
       <ARouteSessions/>

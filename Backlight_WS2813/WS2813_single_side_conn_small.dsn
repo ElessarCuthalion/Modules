@@ -1,0 +1,208 @@
+(pcb D:\Projects\18.01.26_Modules\Backlight_WS2813\WS2813_single_side_conn_small.dsn
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "(5.0.0-rc2-dev-596-gcfd2f1d00)")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer F.Cu
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer B.Cu
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (path pcb 0  101318 -45382.3  102152 -45685.8  102920 -46129.6  103600 -46700
+            103600 -53300  102920 -53870.4  102152 -54314.2  101318 -54617.7
+            100444 -54771.8  99556.3 -54771.8  98682.3 -54617.7  97848.4 -54314.2
+            97079.8 -53870.4  96400 -53300  96400 -46700  97079.8 -46129.6
+            97848.4 -45685.8  98682.3 -45382.3  99556.3 -45228.2  100444 -45228.2
+            101318 -45382.3)
+    )
+    (via "Via[0-1]_700:300_um" "Via[0-1]_900:400_um")
+    (rule
+      (width 200)
+      (clearance 200.1)
+      (clearance 200.1 (type default_smd))
+      (clearance 50 (type smd_smd))
+    )
+  )
+  (placement
+    (component PCB_details:Castellated_x4_0.8mm
+      (place XP1 96400 -52400 front 90 (PN IN))
+    )
+    (component PCB_details:Castellated_x4R_0.8mm
+      (place XP2 103600 -52400 front 270 (PN OUT))
+    )
+    (component LEDs:WS2813
+      (place HL1 100000 -50000 front 270 (PN WS2813))
+    )
+    (component PCB_details:Hole_for_M2
+      (place Hole1 100000 -50000 front 270 (PN HoleMetalled))
+    )
+  )
+  (library
+    (image PCB_details:Castellated_x4_0.8mm
+      (pin RoundRect[T]Pad_1200x200_100.381_um 3 3200 -550)
+      (pin Rect[B]Pad_1200x2400_um 3@1 3200 -1250)
+      (pin Rect[T]Pad_1200x550_um 3@2 3200 -275)
+      (pin Rect[T]Pad_1200x550_um 4 4800 -275)
+      (pin Rect[B]Pad_1200x2400_um 4@1 4800 -1250)
+      (pin RoundRect[T]Pad_1200x200_100.381_um 4@2 4800 -550)
+      (pin RoundRect[T]Pad_1200x200_100.381_um 2 1600 -550)
+      (pin Rect[B]Pad_1200x2400_um 2@1 1600 -1250)
+      (pin Rect[T]Pad_1200x550_um 2@2 1600 -275)
+      (pin Rect[T]Pad_1200x550_um 1 0 -275)
+      (pin Rect[B]Pad_1200x2400_um 1@1 0 -1250)
+      (pin RoundRect[T]Pad_1200x200_100.381_um 1@2 0 -550)
+      (keepout "" (circle F.Cu 800 3200 0))
+      (keepout "" (circle B.Cu 800 3200 0))
+      (keepout "" (circle F.Cu 800 4800 0))
+      (keepout "" (circle B.Cu 800 4800 0))
+      (keepout "" (circle F.Cu 800 1600 0))
+      (keepout "" (circle B.Cu 800 1600 0))
+      (keepout "" (circle F.Cu 800))
+      (keepout "" (circle B.Cu 800))
+    )
+    (image PCB_details:Castellated_x4R_0.8mm
+      (pin RoundRect[T]Pad_1200x200_100.381_um 3 -3200 -550)
+      (pin Rect[B]Pad_1200x2400_um 3@1 -3200 -1250)
+      (pin Rect[T]Pad_1200x550_um 3@2 -3200 -275)
+      (pin Rect[T]Pad_1200x550_um 4 -4800 -275)
+      (pin Rect[B]Pad_1200x2400_um 4@1 -4800 -1250)
+      (pin RoundRect[T]Pad_1200x200_100.381_um 4@2 -4800 -550)
+      (pin RoundRect[T]Pad_1200x200_100.381_um 2 -1600 -550)
+      (pin Rect[B]Pad_1200x2400_um 2@1 -1600 -1250)
+      (pin Rect[T]Pad_1200x550_um 2@2 -1600 -275)
+      (pin Rect[T]Pad_1200x550_um 1 0 -275)
+      (pin Rect[B]Pad_1200x2400_um 1@1 0 -1250)
+      (pin RoundRect[T]Pad_1200x200_100.381_um 1@2 0 -550)
+      (keepout "" (circle F.Cu 800 -3200 0))
+      (keepout "" (circle B.Cu 800 -3200 0))
+      (keepout "" (circle F.Cu 800 -4800 0))
+      (keepout "" (circle B.Cu 800 -4800 0))
+      (keepout "" (circle F.Cu 800 -1600 0))
+      (keepout "" (circle B.Cu 800 -1600 0))
+      (keepout "" (circle F.Cu 800))
+      (keepout "" (circle B.Cu 800))
+    )
+    (image LEDs:WS2813
+      (outline (path signal 150  1500 -2500  2500 -1500))
+      (outline (path signal 150  2500 -2300  2300 -2500))
+      (outline (path signal 150  2100 -2500  2500 -2100))
+      (outline (path signal 150  2500 -1900  1900 -2500))
+      (outline (path signal 150  1700 -2500  2500 -1700))
+      (outline (path signal 150  2500 -1600  1600 -2500))
+      (outline (path signal 150  2200 0  2118.42 -593.553  1879.72 -1143.09  1501.62 -1607.84
+            1012.14 -1953.35  447.603 -2153.99  -150.133 -2194.87  -736.735 -2072.97
+            -1268.7 -1797.33  -1706.57 -1388.39  -2017.87 -876.482  -2179.51 -299.567
+            -2179.51 299.567  -2017.87 876.482  -1706.57 1388.39  -1268.7 1797.33
+            -736.735 2072.97  -150.133 2194.87  447.603 2153.99  1012.14 1953.35
+            1501.62 1607.84  1879.72 1143.09  2118.42 593.553  2200 0))
+      (outline (path signal 150  2500 2500  2500 -2500))
+      (outline (path signal 150  2500 -2500  -2500 -2500))
+      (outline (path signal 150  -2500 -2500  -2500 2500))
+      (outline (path signal 149.86  -2500 2500  2500 2500))
+      (pin Oval[T]Pad_1600x1100_um 5 -2500 0)
+      (pin Oval[T]Pad_1600x1100_um 2 2500 0)
+      (pin Rect[T]Pad_1600x1100_um 1 2500 -1600)
+      (pin Oval[T]Pad_1600x1100_um 4 -2500 1600)
+      (pin Oval[T]Pad_1600x1100_um 6 -2500 -1600)
+      (pin Oval[T]Pad_1600x1100_um 3 2500 1600)
+    )
+    (image PCB_details:Hole_for_M2
+      (pin Round[A]Pad_1800_um H 0 0)
+    )
+    (padstack Round[A]Pad_1800_um
+      (shape (circle F.Cu 1800))
+      (shape (circle B.Cu 1800))
+      (attach off)
+    )
+    (padstack Oval[T]Pad_1600x1100_um
+      (shape (path F.Cu 1100  -250 0  250 0))
+      (attach off)
+    )
+    (padstack RoundRect[T]Pad_1200x200_100.381_um
+      (shape (polygon F.Cu 0  517.431 98.857  534.332 94.328  550.19 86.933  564.524 76.897
+            576.896 64.525  586.932 50.192  594.327 34.333  598.856 17.432
+            600.381 0.001  600.381 -0.001  598.856 -17.432  594.327 -34.333
+            586.932 -50.191  576.896 -64.525  564.524 -76.897  550.191 -86.933
+            534.332 -94.328  517.431 -98.857  500 -100.382  -500 -100.382
+            -517.431 -98.857  -534.332 -94.328  -550.19 -86.933  -564.524 -76.897
+            -576.896 -64.525  -586.932 -50.192  -594.327 -34.333  -598.856 -17.432
+            -600.381 -0.001  -600.381 0.001  -598.856 17.432  -594.327 34.333
+            -586.932 50.191  -576.896 64.525  -564.524 76.897  -550.191 86.933
+            -534.332 94.328  -517.431 98.857  -500 100.382  500 100.382
+            517.431 98.857))
+      (attach off)
+    )
+    (padstack Rect[B]Pad_1200x2400_um
+      (shape (rect B.Cu -600 -1200 600 1200))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_1200x550_um
+      (shape (rect F.Cu -600 -275 600 275))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_1600x1100_um
+      (shape (rect F.Cu -800 -550 800 550))
+      (attach off)
+    )
+    (padstack "Via[0-1]_700:300_um"
+      (shape (circle F.Cu 700))
+      (shape (circle B.Cu 700))
+      (attach off)
+    )
+    (padstack "Via[0-1]_900:400_um"
+      (shape (circle F.Cu 900))
+      (shape (circle B.Cu 900))
+      (attach off)
+    )
+  )
+  (network
+    (net GND
+      (pins XP1-2 XP1-2@1 XP1-2@2 XP2-2 XP2-2@1 XP2-2@2 HL1-5 Hole1-H)
+    )
+    (net +VCC
+      (pins XP1-1 XP1-1@1 XP1-1@2 XP2-1 XP2-1@1 XP2-1@2 HL1-2 HL1-1)
+    )
+    (net /Din
+      (pins XP1-3 XP1-3@1 XP1-3@2 XP2-4 XP2-4@1 XP2-4@2 HL1-4)
+    )
+    (net /BDin
+      (pins XP1-4 XP1-4@1 XP1-4@2 HL1-6)
+    )
+    (net /Dout
+      (pins XP2-3 XP2-3@1 XP2-3@2 HL1-3)
+    )
+    (class kicad_default "" /BDin /Din /Dout
+      (circuit
+        (use_via Via[0-1]_700:300_um)
+      )
+      (rule
+        (width 200)
+        (clearance 200.1)
+      )
+    )
+    (class wide +VCC GND
+      (circuit
+        (use_via Via[0-1]_900:400_um)
+      )
+      (rule
+        (width 500)
+        (clearance 200.1)
+      )
+    )
+  )
+  (wiring
+  )
+)
