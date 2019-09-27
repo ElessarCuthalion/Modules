@@ -46,7 +46,7 @@
     (pad_size 1.8 1.8)
     (pad_drill 1.2)
     (pad_to_mask_clearance 0.2)
-    (aux_axis_origin 100.1 50)
+    (aux_axis_origin 103.6 54.8)
     (grid_origin 96.4 45.2)
     (visible_elements 7FFFFF7F)
     (pcbplotparams
