@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--****************************************-->
+<!--   File    : WS2818_module.fsproj       -->
+<!--   Format  : TopoR Project file         -->
+<!--   Version : 2                          -->
+<!--   Program : TopoR Lite 7.0.18707       -->
+<!--   Date    : Thursday, October 03, 2019 -->
+<!--   Time    : 15:02                      -->
+<!--****************************************-->
+
+<Project>
+   <Version current="2"/>
+   <GUID>{916F5077-7BD5-4DB5-BF56-9B87B6FCF7E2}</GUID>
+   <Documents>
+      <Section name="PCB" isExpanded="true">
+         <File path=".\WS2813_module.fsx" isopened="0" dateChange="2018-11-17 14:23:05"/>
+         <File path=".\WS2813_module_v2.fsx" isopened="1" dateChange="2019-09-23 18:47:04"/>
+         <File path=".\WS2818_module.fsx" isopened="0" dateChange="2018-11-16 17:40:10"/>
+      </Section>
+      <Section name="AutoRouting" isExpanded="true"/>
+   </Documents>
+   <Import>
+      <Specctra>
+         <Path name="D:\Projects\18.11.12_CleverChandelier\WS2818_module\WS2813_module.dsn"/>
+         <Path name="D:\Projects\18.11.12_CleverChandelier\WS2818_module\WS2818_module.dsn"/>
+         <Path name="D:\Projects\18.11.12_CleverChandelier\WS2818_module\WS2813_module_v2.dsn"/>
+      </Specctra>
+   </Import>
+</Project>
