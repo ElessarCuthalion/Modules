@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Capacitors:C_0603
+# Capacitors_C_0603
 #
-DEF Capacitors:C_0603 C 0 40 N N 1 F N
+DEF Capacitors_C_0603 C 0 40 N N 1 F N
 F0 "C" 150 200 60 H V C CNN
-F1 "Capacitors:C_0603" 150 100 60 H V C CNN
+F1 "Capacitors_C_0603" 150 100 60 H V C CNN
 F2 "CAP0603" 200 -100 60 H I C CNN
 F3 "" 0 250 60 H V C CNN
 F4 "2" -100 200 60 H I C CNN "SolderPoints"
@@ -30,11 +30,11 @@ X ~ 2 200 0 200 L 50 50 1 2 P
 ENDDRAW
 ENDDEF
 #
-# Capacitors:C_0805
+# Capacitors_C_0805
 #
-DEF Capacitors:C_0805 C 0 40 N N 1 F N
+DEF Capacitors_C_0805 C 0 40 N N 1 F N
 F0 "C" 150 200 60 H V C CNN
-F1 "Capacitors:C_0805" 150 100 60 H V C CNN
+F1 "Capacitors_C_0805" 150 100 60 H V C CNN
 F2 "CAP0805" 200 -100 60 H I C CNN
 F3 "" 0 250 60 H V C CNN
 F4 "2" -100 200 60 H I C CNN "SolderPoints"
@@ -59,11 +59,11 @@ X ~ 2 200 0 200 L 50 50 1 2 P
 ENDDRAW
 ENDDEF
 #
-# Capacitors:C_1206
+# Capacitors_C_1206
 #
-DEF Capacitors:C_1206 C 0 40 N N 1 F N
+DEF Capacitors_C_1206 C 0 40 N N 1 F N
 F0 "C" 150 200 60 H V C CNN
-F1 "Capacitors:C_1206" 150 100 60 H V C CNN
+F1 "Capacitors_C_1206" 150 100 60 H V C CNN
 F2 "CAP1206" 200 -100 60 H I C CNN
 F3 "" 0 250 60 H V C CNN
 F4 "2" -100 200 60 H I C CNN "SolderPoints"
@@ -88,11 +88,11 @@ X ~ 2 200 0 200 L 50 50 1 2 P
 ENDDRAW
 ENDDEF
 #
-# Connectors:Conn-2m
+# Connectors_Conn-2m
 #
-DEF Connectors:Conn-2m XP 0 40 Y N 1 F N
+DEF Connectors_Conn-2m XP 0 40 Y N 1 F N
 F0 "XP" -150 350 60 H V C CNN
-F1 "Connectors:Conn-2m" 200 0 60 V V C CNN
+F1 "Connectors_Conn-2m" 200 0 60 V V C CNN
 F2 "PLS-2" -150 -250 60 H I C CNN
 F3 "" 100 200 60 H V C CNN
 F4 "0" -350 350 60 H I C CNN "SolderPoints"
@@ -120,11 +120,11 @@ X ~ 2 -350 -200 200 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Connectors:for_PolarOut
+# Connectors_for_PolarOut
 #
-DEF Connectors:for_PolarOut XP 0 40 Y Y 1 F N
+DEF Connectors_for_PolarOut XP 0 40 Y Y 1 F N
 F0 "XP" 0 500 60 H V C CNN
-F1 "Connectors:for_PolarOut" 0 400 60 H V C CNN
+F1 "Connectors_for_PolarOut" 0 400 60 H V C CNN
 F2 "for_PolarOut_PLS-2" 0 -250 60 H I C CNN
 F3 "" 50 -350 60 H V C CNN
 F4 "0" -350 500 60 H I C CNN "SolderPoints"
@@ -143,11 +143,11 @@ X -/gnd 2 400 -100 200 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# DC-DC:MP8765
+# DC-DC_MP8765
 #
-DEF DC-DC:MP8765 DA 0 28 Y Y 1 F N
+DEF DC-DC_MP8765 DA 0 28 Y Y 1 F N
 F0 "DA" 0 650 60 H V C CNN
-F1 "DC-DC:MP8765" 0 550 60 H V C CNN
+F1 "DC-DC_MP8765" 0 550 60 H V C CNN
 F2 "FCQFN16" 300 -550 60 H I C CNN
 F3 "" 250 -350 60 H V C CNN
 F4 "16" -300 650 60 H I C CNN "SolderPoints"
@@ -177,11 +177,11 @@ X SW 9 600 300 200 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Diodes:BAT54WS
+# Diodes_BAT54WS
 #
-DEF Diodes:BAT54WS VD 0 40 N N 1 F N
+DEF Diodes_BAT54WS VD 0 40 N N 1 F N
 F0 "VD" 0 300 60 H V C CNN
-F1 "Diodes:BAT54WS" 0 200 60 H V C CNN
+F1 "Diodes_BAT54WS" 0 200 60 H V C CNN
 F2 "SOD323" 0 -150 60 H I C CNN
 F3 "" -300 0 60 H V C CNN
 F4 "2" -250 300 60 H I C CNN "SolderPoints"
@@ -200,11 +200,11 @@ X C C 300 0 200 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Graphics:Eldalim
+# Graphics_Eldalim
 #
-DEF ~Graphics:Eldalim Logo 0 40 Y Y 1 F N
+DEF Graphics_Eldalim Logo 0 40 Y Y 1 F N
 F0 "Logo" 0 550 60 H I C CNN
-F1 "Graphics:Eldalim" 0 450 60 H I C CNN
+F1 "Graphics_Eldalim" 0 450 60 H I C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -223,11 +223,11 @@ P 268 0 0 1 292 335 291 337 290 337 288 335 284 331 279 323 275 318 259 299 243 
 ENDDRAW
 ENDDEF
 #
-# Inductors:Inductor
+# Inductors_Inductor
 #
-DEF Inductors:Inductor L 0 40 N N 1 F N
+DEF Inductors_Inductor L 0 40 N N 1 F N
 F0 "L" 0 300 60 H V C CNN
-F1 "Inductors:Inductor" 0 200 60 H V C CNN
+F1 "Inductors_Inductor" 0 200 60 H V C CNN
 F2 "" 0 -75 60 H V C CNN
 F3 "" -400 25 60 H V C CNN
 F4 "2" -300 300 60 H I C CNN "SolderPoints"
@@ -246,11 +246,11 @@ X 2 2 600 0 200 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# PCB_details:Heatsink
+# PCB_details_Heatsink
 #
-DEF PCB_details:Heatsink Heat 0 40 N N 1 F N
+DEF PCB_details_Heatsink Heat 0 40 N N 1 F N
 F0 "Heat" 0 400 60 H I C CNN
-F1 "PCB_details:Heatsink" 0 300 60 H V C CNN
+F1 "PCB_details_Heatsink" 0 300 60 H V C CNN
 F2 "" 0 -150 60 H I C CNN
 F3 "" -65 0 60 H V C CNN
 $FPLIST
@@ -284,11 +284,11 @@ P 4 0 1 0 200 50 200 0 -200 0 -200 50 f
 ENDDRAW
 ENDDEF
 #
-# PCB_details:HoleMetalled
+# PCB_details_HoleMetalled
 #
-DEF PCB_details:HoleMetalled Hole 0 40 Y Y 1 F N
+DEF PCB_details_HoleMetalled Hole 0 40 Y Y 1 F N
 F0 "Hole" -450 50 60 H V C CNN
-F1 "PCB_details:HoleMetalled" -450 -50 60 H V C CNN
+F1 "PCB_details_HoleMetalled" -450 -50 60 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -300,11 +300,11 @@ X ~ H 350 0 200 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Power:+12V
+# Power_+12V
 #
-DEF Power:+12V ~ 0 0 N Y 1 F P
+DEF Power_+12V ~ 0 0 N Y 1 F P
 F0 "" 100 -50 60 H I C CNN
-F1 "Power:+12V" 450 0 60 H V C CNN
+F1 "Power_+12V" 450 0 60 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 F4 "A" 350 -100 60 H I L CNN "Current"
@@ -315,11 +315,11 @@ X +12V ~ 0 0 200 R 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# Power:+5Vout
+# Power_+5Vout
 #
-DEF Power:+5Vout ~ 0 0 N Y 1 F P
+DEF Power_+5Vout ~ 0 0 N Y 1 F P
 F0 "" 100 -50 60 H I C CNN
-F1 "Power:+5Vout" 500 0 60 H V C CNN
+F1 "Power_+5Vout" 500 0 60 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 F4 "A" 350 -100 60 H I L CNN "Current"
@@ -330,11 +330,11 @@ X +5Vout ~ 0 0 200 R 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# Power:GND
+# Power_GND
 #
-DEF ~Power:GND ~ 0 0 N N 1 F P
+DEF Power_GND ~ 0 0 N N 1 F P
 F0 "" -50 -50 60 V I C CNN
-F1 "Power:GND" 50 -50 60 V I C CNN
+F1 "Power_GND" 50 -50 60 V I C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -344,11 +344,11 @@ X GND ~ 0 0 200 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# Power:Jumper
+# Power_Jumper
 #
-DEF ~Power:Jumper J 0 40 N N 1 F N
+DEF Power_Jumper J 0 40 N N 1 F N
 F0 "J" 0 50 60 H V C CNN
-F1 "Power:Jumper" 0 -50 60 H I C CNN
+F1 "Power_Jumper" 0 -50 60 H I C CNN
 F2 "" 0 -225 60 H I C CNN
 F3 "" -200 0 60 H V C CNN
 $FPLIST
@@ -360,11 +360,11 @@ X 2 2 200 0 200 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Power:LGND1
+# Power_LGND1
 #
-DEF Power:LGND1 ~ 0 0 N Y 1 F P
+DEF Power_LGND1 ~ 0 0 N Y 1 F P
 F0 "" 50 -100 60 V I C CNN
-F1 "Power:LGND1" 50 -200 60 V V L CNN
+F1 "Power_LGND1" 50 -200 60 V V L CNN
 F2 "" -50 -200 60 V V C CNN
 F3 "" 50 -100 60 V V C CNN
 F4 "name" -50 -200 50 V I L CNN "name"
@@ -375,11 +375,11 @@ X GNDL1 ~ 0 0 200 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# Power:PWR_FLAG
+# Power_PWR_FLAG
 #
-DEF Power:PWR_FLAG #FLG 0 0 N N 1 F P
+DEF Power_PWR_FLAG #FLG 0 0 N N 1 F P
 F0 "#FLG" 0 95 30 H I C CNN
-F1 "Power:PWR_FLAG" 0 180 30 H V C CNN
+F1 "Power_PWR_FLAG" 0 180 30 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -388,11 +388,11 @@ X pwr 1 0 0 0 U 20 20 0 0 w
 ENDDRAW
 ENDDEF
 #
-# Resistors:R_0603
+# Resistors_R_0603
 #
-DEF Resistors:R_0603 R 0 40 N N 1 F N
+DEF Resistors_R_0603 R 0 40 N N 1 F N
 F0 "R" 0 250 60 H V C CNN
-F1 "Resistors:R_0603" 0 150 60 H V C CNN
+F1 "Resistors_R_0603" 0 150 60 H V C CNN
 F2 "RES0603" 0 -150 60 H I C CNN
 F3 "" -400 0 60 H V C CNN
 F4 "2" -200 250 60 H I C CNN "SolderPoints"

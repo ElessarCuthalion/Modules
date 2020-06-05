@@ -1,4 +1,4 @@
-update=09.04.2020 14:38:03
+update=05.06.2020 14:15:51
 version=1
 last_client=kicad
 [cvpcb]
@@ -24,7 +24,7 @@ ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=QuestPlatform.net
+LastNetListRead=MP8765.net
 CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0
@@ -66,7 +66,7 @@ OthersTextUpright=1
 SolderMaskClearance=0.2
 SolderMaskMinWidth=0
 SolderPasteClearance=0
-SolderPasteRatio=-0
+SolderPasteRatio=0
 [pcbnew/Layer.F.Cu]
 Name=F.Cu
 Type=0
