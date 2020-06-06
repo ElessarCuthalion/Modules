@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--*************************************-->
+<!--   File    : MP8765.fsproj           -->
+<!--   Format  : TopoR Project file      -->
+<!--   Version : 2                       -->
+<!--   Program : TopoR Lite 7.0.18707    -->
+<!--   Date    : Saturday, June 06, 2020 -->
+<!--   Time    : 09:51                   -->
+<!--*************************************-->
+
+<Project>
+   <Version current="2"/>
+   <GUID>{39BB7200-596A-4BBA-ABC8-9D0782B0585E}</GUID>
+   <Documents>
+      <Section name="PCB" isExpanded="false">
+         <File path=".\MP8765.fsx" isopened="0" dateChange="2019-02-19 09:28:46"/>
+      </Section>
+      <Section name="AutoRouting" isExpanded="false"/>
+   </Documents>
+   <Import>
+      <Specctra>
+         <Path name="D:\Projects\18.01.26_Modules\Buck_MP8765\MP8765.dsn"/>
+      </Specctra>
+   </Import>
+</Project>
