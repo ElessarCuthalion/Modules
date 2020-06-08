@@ -1119,6 +1119,11 @@
       (net 11 "Net-(DA1-Pad12)"))
     (pad 9 smd rect (at 0.8 0) (size 2.4 1.6) (layers F.Cu)
       (net 5 /+SW1))
+    (model ${KISYS3DMOD}/QFN_DFN_LGA/FCQFN16.stp
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (gr_text "PG  EN" (at 127 53.4) (layer F.SilkS)
