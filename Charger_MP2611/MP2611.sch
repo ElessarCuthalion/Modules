@@ -1,36 +1,5 @@
-EESchema Schematic File Version 2
-LIBS:Audio
-LIBS:Capacitors
-LIBS:Chargers
-LIBS:DC-DC
-LIBS:Drivers
-LIBS:Inductors
-LIBS:LED
-LIBS:Opto
-LIBS:OU
-LIBS:PCB details
-LIBS:Quartz
-LIBS:Regulators
-LIBS:Resistors
-LIBS:Sensors
-LIBS:Sound
-LIBS:Switches
-LIBS:Logic
-LIBS:Diodes
-LIBS:Transistors
-LIBS:Interface
-LIBS:Modules
-LIBS:Radio
-LIBS:Relays
-LIBS:Graphics
-LIBS:Display
-LIBS:Memory
-LIBS:Motors
-LIBS:MSU
-LIBS:Power
-LIBS:Connectors
-LIBS:MP2611-cache
-EELAYER 24 0
+EESchema Schematic File Version 4
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -48,7 +17,7 @@ Text Notes 7250 6950 0    197  ~ 0
 ЗУ на MP2611
 NoConn ~ 18450 -1450
 $Comp
-L mcro/mini-USB XS1
+L MP2611-rescue:mcro_mini-USB XS1
 U 1 1 57B5F70E
 P 1050 1350
 F 0 "XS1" H 1050 2100 60  0000 C CNN
@@ -59,7 +28,7 @@ F 3 "" H 1400 700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #U01
+L Power:GND #U01
 U 1 1 57B5F7D6
 P 1700 2150
 F 0 "#U01" V 1750 2200 60  0001 C CNN
@@ -70,7 +39,7 @@ F 3 "" H 1700 2150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #U02
+L Power:GND #U02
 U 1 1 57B5F7F1
 P 1050 2150
 F 0 "#U02" V 1100 2200 60  0001 C CNN
@@ -83,7 +52,7 @@ $EndComp
 NoConn ~ 1650 1250
 NoConn ~ 1650 1450
 $Comp
-L GND #U03
+L Power:GND #U03
 U 1 1 57B5F843
 P 1950 2150
 F 0 "#U03" V 2000 2200 60  0001 C CNN
@@ -94,7 +63,7 @@ F 3 "" H 1950 2150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #U04
+L Power:GND #U04
 U 1 1 57B5FB94
 P 7850 3300
 F 0 "#U04" V 7900 3350 60  0001 C CNN
@@ -105,7 +74,7 @@ F 3 "" H 7850 3300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED_0603 HL2
+L LED:LED_0603 HL2
 U 1 2 57B5FD2F
 P 4250 4850
 F 0 "HL2" H 3950 5200 60  0000 C CNN
@@ -116,7 +85,7 @@ F 3 "" H 4250 4850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MP2611 DA1
+L Chargers:MP2611 DA1
 U 1 1 57B5F679
 P 6450 1850
 F 0 "DA1" H 6450 2700 60  0000 C CNN
@@ -129,7 +98,7 @@ $EndComp
 Text Label 2100 1050 0    60   ~ 0
 USB_VCC
 $Comp
-L FuseX2 fuse1
+L MP2611-rescue:FuseX2 fuse1
 U 1 1 57B6EF21
 P 3500 1050
 F 0 "fuse1" H 3700 750 60  0000 C CNN
@@ -142,7 +111,7 @@ $EndComp
 Text Label 2750 1050 0    60   ~ 0
 USB_VCC
 $Comp
-L GND #U05
+L Power:GND #U05
 U 1 1 57B6F706
 P 5150 2350
 F 0 "#U05" V 5200 2400 60  0001 C CNN
@@ -153,7 +122,7 @@ F 3 "" H 5150 2350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #U06
+L Power:GND #U06
 U 1 1 57B6F8E8
 P 5900 3300
 F 0 "#U06" V 5950 3350 60  0001 C CNN
@@ -164,7 +133,7 @@ F 3 "" H 5900 3300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #U07
+L Power:GND #U07
 U 1 1 57B6F91A
 P 7050 3300
 F 0 "#U07" V 7100 3350 60  0001 C CNN
@@ -175,7 +144,7 @@ F 3 "" H 7050 3300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #U08
+L Power:GND #U08
 U 1 1 57B6F933
 P 7500 3300
 F 0 "#U08" V 7550 3350 60  0001 C CNN
@@ -186,7 +155,7 @@ F 3 "" H 7500 3300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L mcro/mini-USB XS2
+L MP2611-rescue:mcro_mini-USB XS2
 U 1 1 57B6FAD7
 P 1050 3250
 F 0 "XS2" H 1050 4000 60  0000 C CNN
@@ -197,7 +166,7 @@ F 3 "" H 1400 2600 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #U09
+L Power:GND #U09
 U 1 1 57B6FAE5
 P 1700 4050
 F 0 "#U09" V 1750 4100 60  0001 C CNN
@@ -208,7 +177,7 @@ F 3 "" H 1700 4050 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #U010
+L Power:GND #U010
 U 1 1 57B6FAEB
 P 1050 4050
 F 0 "#U010" V 1100 4100 60  0001 C CNN
@@ -223,7 +192,7 @@ NoConn ~ 1650 3350
 Text Label 2050 2950 0    60   ~ 0
 USB_VCC
 $Comp
-L LED_0603 HL1
+L LED:LED_0603 HL1
 U 1 2 57B6FDFC
 P 4250 5350
 F 0 "HL1" H 3950 5700 60  0000 C CNN
@@ -246,7 +215,7 @@ Text Notes 7050 5850 0    60   ~ 0
 Text Notes 9000 5950 0    60   ~ 0
 (VIN-VBAT < 0,2V /\nнет источника питания)
 $Comp
-L C_0603 C1
+L Capacitors:C_0603 C1
 U 1 1 57B71013
 P 1950 1350
 F 0 "C1" H 2100 1550 60  0000 C CNN
@@ -257,7 +226,7 @@ F 3 "" H 1950 1600 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_0603 C4
+L Capacitors:C_0603 C4
 U 1 1 57B71186
 P 5150 1950
 F 0 "C4" H 5300 2150 60  0000 C CNN
@@ -268,7 +237,7 @@ F 3 "" H 5150 2200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_0805 C3
+L Capacitors:C_0805 C3
 U 1 1 57B7126E
 P 4350 1950
 F 0 "C3" H 4500 2150 60  0000 C CNN
@@ -279,7 +248,7 @@ F 3 "" H 4350 2200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_0805 C2
+L Capacitors:C_0805 C2
 U 1 1 57B7130C
 P 3750 1950
 F 0 "C2" H 3900 2150 60  0000 C CNN
@@ -290,7 +259,7 @@ F 3 "" H 3750 2200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_0603 R2
+L Resistors:R_0603 R2
 U 1 1 57B71440
 P 3400 4850
 F 0 "R2" H 3400 5100 60  0000 C CNN
@@ -301,7 +270,7 @@ F 3 "" H 3000 4850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_0603 R3
+L Resistors:R_0603 R3
 U 1 1 57B71580
 P 3400 4350
 F 0 "R3" H 3400 4600 60  0000 C CNN
@@ -312,7 +281,7 @@ F 3 "" H 3000 4350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_0603 R1
+L Resistors:R_0603 R1
 U 1 1 57B71613
 P 3400 5350
 F 0 "R1" H 3400 5100 60  0000 C CNN
@@ -323,7 +292,7 @@ F 3 "" H 3000 5350 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R_1206 R7
+L Resistors:R_1206 R7
 U 1 1 57B71A41
 P 8750 900
 F 0 "R7" H 8600 1050 60  0000 C CNN
@@ -334,7 +303,7 @@ F 3 "" H 8350 900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_1206 R8
+L Resistors:R_1206 R8
 U 1 1 57B71B76
 P 8750 1250
 F 0 "R8" H 8600 1400 60  0000 C CNN
@@ -345,7 +314,7 @@ F 3 "" H 8350 1250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Inductor L1
+L Inductors:Inductor L1
 U 1 1 57B71C38
 P 7650 1250
 F 0 "L1" H 7650 1550 60  0000 C CNN
@@ -356,7 +325,7 @@ F 3 "" H 7250 1275 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_0805 C6
+L Capacitors:C_0805 C6
 U 1 1 57B720D3
 P 9850 1550
 F 0 "C6" H 10000 1750 60  0000 C CNN
@@ -367,7 +336,7 @@ F 3 "" H 9850 1800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BATT GB1
+L MP2611-rescue:BATT GB1
 U 1 1 57B724FC
 P 10400 1550
 F 0 "GB1" H 10600 1600 60  0000 L CNN
@@ -390,7 +359,7 @@ STAT2
 Text Label 5500 2250 0    60   ~ 0
 NTC
 $Comp
-L conn-2p XP3
+L MP2611-rescue:conn-2p XP3
 U 1 1 57B74008
 P 800 6350
 F 0 "XP3" H 700 6800 60  0000 C CNN
@@ -401,7 +370,7 @@ F 3 "" H 900 6550 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L R_0603 R5
+L Resistors:R_0603 R5
 U 1 1 57B743E0
 P 1650 6550
 F 0 "R5" H 1650 6800 60  0000 C CNN
@@ -412,7 +381,7 @@ F 3 "" H 1250 6550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_0603 R4
+L Resistors:R_0603 R4
 U 1 1 57B74568
 P 1650 5750
 F 0 "R4" H 1650 6000 60  0000 C CNN
@@ -423,7 +392,7 @@ F 3 "" H 1250 5750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #U011
+L Power:GND #U011
 U 1 1 57B748B9
 P 1200 6600
 F 0 "#U011" V 1250 6650 60  0001 C CNN
@@ -458,7 +427,7 @@ note3
 Text Notes 5650 4600 2    60   ~ 0
 note2
 $Comp
-L C_0603 C7
+L Capacitors:C_0603 C7
 U 1 1 57B7717D
 P 9450 1550
 F 0 "C7" H 9600 1750 60  0000 C CNN
@@ -469,7 +438,7 @@ F 3 "" H 9450 1800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND_Power #U012
+L MP2611-rescue:GND_Power #U012
 U 1 1 57B77B80
 P 9850 2150
 F 0 "#U012" V 9900 2200 60  0001 C CNN
@@ -480,7 +449,7 @@ F 3 "" H 9850 2150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND_Power #U013
+L MP2611-rescue:GND_Power #U013
 U 1 1 57B77C75
 P 10400 2150
 F 0 "#U013" V 10450 2200 60  0001 C CNN
@@ -491,7 +460,7 @@ F 3 "" H 10400 2150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND_Power #U014
+L MP2611-rescue:GND_Power #U014
 U 1 1 57B77DE0
 P 3750 2350
 F 0 "#U014" V 3800 2400 60  0001 C CNN
@@ -502,7 +471,7 @@ F 3 "" H 3750 2350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND_Power #U015
+L MP2611-rescue:GND_Power #U015
 U 1 1 57B77E4F
 P 4350 2350
 F 0 "#U015" V 4400 2400 60  0001 C CNN
@@ -513,7 +482,7 @@ F 3 "" H 4350 2350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND_Power #U016
+L MP2611-rescue:GND_Power #U016
 U 1 1 57B77F59
 P 6450 3300
 F 0 "#U016" V 6500 3350 60  0001 C CNN
@@ -524,7 +493,7 @@ F 3 "" H 6450 3300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_0805 C5
+L Capacitors:C_0805 C5
 U 1 1 57B781C1
 P 7050 2750
 F 0 "C5" H 7200 2950 60  0000 C CNN
@@ -535,7 +504,7 @@ F 3 "" H 7050 3000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_0805 R6
+L Resistors:R_0805 R6
 U 1 1 57B78380
 P 7500 2750
 F 0 "R6" V 7400 2950 60  0000 C CNN
@@ -546,7 +515,7 @@ F 3 "" H 7100 2750 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L conn-1p XP1
+L MP2611-rescue:conn-1p XP1
 U 1 1 57B78702
 P 800 4600
 F 0 "XP1" H 700 4400 60  0000 C CNN
@@ -559,7 +528,7 @@ $EndComp
 Text Label 1150 4600 0    60   ~ 0
 USB_VCC
 $Comp
-L conn-1p XP2
+L MP2611-rescue:conn-1p XP2
 U 1 1 57B78E2D
 P 800 4950
 F 0 "XP2" H 700 4750 60  0000 C CNN
@@ -570,7 +539,7 @@ F 3 "" H 900 4950 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #U017
+L Power:GND #U017
 U 1 1 57B79054
 P 1150 4950
 F 0 "#U017" V 1200 5000 60  0001 C CNN
@@ -587,7 +556,7 @@ note5
 Text Notes 8900 1450 2    60   ~ 0
 note5
 $Comp
-L HOLE_METALLED HOLE1
+L MP2611-rescue:HOLE_METALLED HOLE1
 U 1 1 57B79C3B
 P 6400 7000
 F 0 "HOLE1" H 5850 7050 60  0000 C CNN
@@ -598,7 +567,7 @@ F 3 "" H 6400 7000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L HOLE_METALLED HOLE2
+L MP2611-rescue:HOLE_METALLED HOLE2
 U 1 1 57B79DD8
 P 6400 7350
 F 0 "HOLE2" H 5850 7400 60  0000 C CNN
@@ -609,7 +578,7 @@ F 3 "" H 6400 7350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #U018
+L Power:GND #U018
 U 1 1 57B79F45
 P 6800 7450
 F 0 "#U018" V 6850 7500 60  0001 C CNN
@@ -632,7 +601,7 @@ LX2
 Text Label 10100 1250 0    60   ~ 0
 Batt
 $Comp
-L Eldalim Label1
+L Graphics:Eldalim Label1
 U 1 1 57B97096
 P 10700 3500
 F 0 "Label1" H 10700 4050 60  0001 C CNN
@@ -649,7 +618,7 @@ note6
 Text Notes 5400 1650 2    60   ~ 0
 note6
 $Comp
-L IRLML2502 VT1
+L Transistors:IRLML2502 VT1
 U 1 1 57B9EF9E
 P 4750 6050
 F 0 "VT1" H 5200 6350 60  0000 C CNN
@@ -660,7 +629,7 @@ F 3 "" H 4400 5900 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L R_0603 R9
+L Resistors:R_0603 R9
 U 1 1 57B9F1B1
 P 5300 6100
 F 0 "R9" V 5200 6300 60  0000 C CNN
@@ -671,7 +640,7 @@ F 3 "" H 4900 6100 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #U019
+L Power:GND #U019
 U 1 1 57B9F39E
 P 5300 6550
 F 0 "#U019" V 5350 6600 60  0001 C CNN
@@ -682,7 +651,7 @@ F 3 "" H 5300 6550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #U020
+L Power:GND #U020
 U 1 1 57B9F3C8
 P 4650 6550
 F 0 "#U020" V 4700 6600 60  0001 C CNN
@@ -693,7 +662,7 @@ F 3 "" H 4650 6550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED_0603 HL3
+L LED:LED_0603 HL3
 U 1 2 57B5FDBF
 P 4250 4350
 F 0 "HL3" H 3950 4700 60  0000 C CNN
@@ -706,7 +675,7 @@ $EndComp
 Text Label 5400 5350 0    60   ~ 0
 STAT1
 $Comp
-L conn-1p XP4
+L MP2611-rescue:conn-1p XP4
 U 1 1 57BC2EC6
 P 10600 900
 F 0 "XP4" H 10500 1100 60  0000 C CNN
@@ -721,9 +690,9 @@ Text Notes 7300 1350 0    60   ~ 0
 Wire Notes Line
 	50650 5500 50650 5550
 Wire Wire Line
-	1650 1050 2100 1050
+	1650 1050 1950 1050
 Wire Wire Line
-	3750 650  3750 1700
+	3750 650  3750 1250
 Wire Wire Line
 	3750 1250 5900 1250
 Wire Wire Line
@@ -740,11 +709,11 @@ Connection ~ 1950 1050
 Wire Wire Line
 	3750 2200 3750 2350
 Wire Wire Line
-	4900 1650 5900 1650
+	4900 1650 5150 1650
 Wire Wire Line
 	5150 1650 5150 1700
 Wire Wire Line
-	3500 1450 5900 1450
+	3500 1450 4350 1450
 Wire Wire Line
 	4350 1450 4350 1700
 Wire Wire Line
@@ -762,9 +731,9 @@ Wire Wire Line
 Wire Wire Line
 	4650 4350 5400 4350
 Wire Wire Line
-	2950 4350 2950 5350
+	2950 4350 2950 4850
 Wire Wire Line
-	2450 4850 3000 4850
+	2450 4850 2950 4850
 Connection ~ 2950 4850
 Wire Wire Line
 	7050 2500 7050 2450
@@ -801,15 +770,15 @@ Wire Notes Line
 Wire Wire Line
 	7050 1250 7000 1250
 Wire Wire Line
-	8250 1250 8350 1250
+	8250 1250 8300 1250
 Wire Wire Line
-	9150 1250 10400 1250
+	9150 1250 9200 1250
 Wire Wire Line
-	9200 900  9200 1650
+	9200 900  9200 1250
 Wire Wire Line
 	9200 900  9150 900 
 Wire Wire Line
-	8300 900  8300 1450
+	8300 900  8300 1250
 Wire Wire Line
 	8300 900  8350 900 
 Connection ~ 8300 1250
@@ -819,14 +788,14 @@ Wire Wire Line
 	9200 1650 7000 1650
 Connection ~ 9200 1250
 Wire Wire Line
-	7000 1850 9850 1850
+	7000 1850 9450 1850
 Wire Wire Line
 	9850 1250 9850 1300
 Wire Wire Line
-	9850 1800 9850 2150
+	9850 1800 9850 1850
 Connection ~ 9850 1850
 Wire Wire Line
-	10400 900  10400 1350
+	10400 900  10400 1250
 Connection ~ 9850 1250
 Wire Wire Line
 	10400 1800 10400 2150
@@ -839,9 +808,9 @@ Wire Notes Line
 Wire Wire Line
 	1250 5750 1000 5750
 Wire Wire Line
-	1150 6150 2350 6150
+	1150 6150 2050 6150
 Wire Wire Line
-	1150 6550 1250 6550
+	1150 6550 1200 6550
 Connection ~ 2050 6150
 Wire Notes Line
 	6950 4500 11200 4500
@@ -862,25 +831,23 @@ Wire Notes Line
 Wire Wire Line
 	6750 7000 6800 7000
 Wire Wire Line
-	6800 7000 6800 7450
+	6800 7000 6800 7350
 Wire Wire Line
 	6750 7350 6800 7350
 Connection ~ 6800 7350
 Wire Wire Line
 	1700 3750 1700 4050
 Wire Wire Line
-	2050 5750 2050 6550
+	2050 5750 2050 6150
 Wire Wire Line
 	1200 6550 1200 6600
 Connection ~ 1200 6550
 Wire Notes Line
 	6950 4000 11200 4000
 Wire Wire Line
-	5100 6200 5100 6200
-Wire Wire Line
 	5100 6200 5100 5350
 Wire Wire Line
-	5100 5350 5400 5350
+	5100 5350 5300 5350
 Wire Wire Line
 	3000 4350 2950 4350
 Wire Wire Line
@@ -906,4 +873,44 @@ Text Notes 9550 5050 0    60   ~ 0
 Text Label 4900 1650 0    60   ~ 0
 Vfef
 Connection ~ 5150 1650
+Wire Wire Line
+	1950 1050 2100 1050
+Wire Wire Line
+	2950 4850 2950 5350
+Wire Wire Line
+	2950 4850 3000 4850
+Wire Wire Line
+	4350 1450 5900 1450
+Wire Wire Line
+	3750 1250 3750 1700
+Wire Wire Line
+	8300 1250 8350 1250
+Wire Wire Line
+	8300 1250 8300 1450
+Wire Wire Line
+	9200 1250 9450 1250
+Wire Wire Line
+	9200 1250 9200 1650
+Wire Wire Line
+	9850 1850 9850 2150
+Wire Wire Line
+	9850 1250 10400 1250
+Wire Wire Line
+	2050 6150 2350 6150
+Wire Wire Line
+	2050 6150 2050 6550
+Wire Wire Line
+	9450 1850 9850 1850
+Wire Wire Line
+	9450 1250 9850 1250
+Wire Wire Line
+	6800 7350 6800 7450
+Wire Wire Line
+	1200 6550 1250 6550
+Wire Wire Line
+	5300 5350 5400 5350
+Wire Wire Line
+	10400 1250 10400 1350
+Wire Wire Line
+	5150 1650 5900 1650
 $EndSCHEMATC
