@@ -1,4 +1,4 @@
-update=19.02.2020 14:18:38
+update=14.03.2021 19:11:22
 version=1
 last_client=pcbnew
 [cvpcb]
@@ -55,7 +55,7 @@ version=1
 PageLayoutDescrFile=
 LastNetListRead=Armlet.net
 CopperLayerCount=2
-BoardThickness=2
+BoardThickness=1
 AllowMicroVias=0
 AllowBlindVias=0
 RequireCourtyardDefinitions=0
