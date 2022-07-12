@@ -1,2 +1,2 @@
-# Modules
+﻿# Modules
  Small PCB modules: Sensors, Chargers, etc...
