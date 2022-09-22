@@ -1,35 +1,5 @@
-EESchema Schematic File Version 2
-LIBS:Audio
-LIBS:Capacitors
-LIBS:Chargers
-LIBS:Connektors
-LIBS:CPU
-LIBS:DC-DC
-LIBS:Drivers
-LIBS:Inductors
-LIBS:LED
-LIBS:Opto
-LIBS:OU
-LIBS:PCB details
-LIBS:Quartz
-LIBS:Regulators
-LIBS:Resistors
-LIBS:Sensors
-LIBS:Sound
-LIBS:Switches
-LIBS:Logic
-LIBS:Diodes
-LIBS:Transistors
-LIBS:Interface
-LIBS:Modules
-LIBS:Radio
-LIBS:Relays
-LIBS:Graphics
-LIBS:Motors
-LIBS:Power
-LIBS:power
-LIBS:AT42QT1011-cache
-EELAYER 24 0
+EESchema Schematic File Version 4
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -49,7 +19,7 @@ Wire Notes Line
 	50650 5500 50650 5550
 NoConn ~ 18450 -1450
 $Comp
-L Eldalim Logo1
+L Graphics:Eldalim Logo1
 U 1 1 57C01481
 P 1750 3200
 F 0 "Logo1" H 1750 3750 60  0001 C CNN
@@ -60,7 +30,7 @@ F 3 "" H 1750 3200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L HOLE_METALLED HOLE2
+L AT42QT1011-rescue:HOLE_METALLED HOLE2
 U 1 1 57CD4EB6
 P 5800 3400
 F 0 "HOLE2" H 5250 3450 60  0000 C CNN
@@ -73,7 +43,7 @@ $EndComp
 Wire Wire Line
 	6150 3400 6200 3400
 $Comp
-L HOLE_METALLED HOLE1
+L AT42QT1011-rescue:HOLE_METALLED HOLE1
 U 1 1 57CD4EC5
 P 5800 3050
 F 0 "HOLE1" H 5250 3100 60  0000 C CNN
@@ -86,7 +56,7 @@ $EndComp
 Wire Wire Line
 	6150 3050 6200 3050
 $Comp
-L AT42QT1011 DA1
+L Sensors:AT42QT1011 DA1
 U 1 1 57D18E63
 P 3550 1750
 F 0 "DA1" H 3550 2300 60  0000 C CNN
@@ -97,7 +67,7 @@ F 3 "" H 3550 1200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SENS E1
+L AT42QT1011-rescue:SENS E1
 U 1 1 57D18E71
 P 1400 1450
 F 0 "E1" H 1400 1800 60  0000 C CNN
@@ -108,7 +78,7 @@ F 3 "" H 1400 1250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #U01
+L Power:GND #U01
 U 1 1 57D18E78
 P 4200 2500
 F 0 "#U01" V 4250 2550 60  0001 C CNN
@@ -119,7 +89,7 @@ F 3 "" H 4200 2500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #U02
+L Power:GND #U02
 U 1 1 57D18E7E
 P 4700 2500
 F 0 "#U02" V 4750 2550 60  0001 C CNN
@@ -130,7 +100,7 @@ F 3 "" H 4700 2500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_0805 C1
+L Capacitors:C_0805 C1
 U 1 1 57D18E8A
 P 2850 1800
 F 0 "C1" H 2500 1900 60  0000 C CNN
@@ -141,7 +111,7 @@ F 3 "" H 2850 2000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #U03
+L Power:GND #U03
 U 1 1 57D18EA0
 P 5300 2500
 F 0 "#U03" V 5350 2550 60  0001 C CNN
@@ -154,7 +124,7 @@ $EndComp
 Text Label 5300 1450 0    60   ~ 0
 VCC
 $Comp
-L PWR_FLAG #FLG04
+L Power:PWR_FLAG #FLG04
 U 1 1 57D18EB1
 P 4700 1300
 F 0 "#FLG04" H 4700 1395 30  0001 C CNN
@@ -165,7 +135,7 @@ F 3 "" H 4700 1300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PWR_FLAG #FLG05
+L Power:PWR_FLAG #FLG05
 U 1 1 57D18EDD
 P 4500 3400
 F 0 "#FLG05" H 4500 3495 30  0001 C CNN
@@ -176,7 +146,7 @@ F 3 "" H 4500 3400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #U06
+L Power:GND #U06
 U 1 1 57D18EE3
 P 4500 3400
 F 0 "#U06" V 4550 3450 60  0001 C CNN
@@ -189,7 +159,7 @@ $EndComp
 Wire Wire Line
 	3000 2050 2850 2050
 Wire Wire Line
-	2700 1450 3000 1450
+	2700 1450 2850 1450
 Wire Wire Line
 	2850 1550 2850 1450
 Connection ~ 2850 1450
@@ -198,9 +168,9 @@ Wire Wire Line
 Wire Wire Line
 	1900 1450 1750 1450
 Wire Wire Line
-	4700 1300 4700 1750
+	4700 1300 4700 1450
 Wire Wire Line
-	4100 1450 5550 1450
+	4100 1450 4700 1450
 Wire Wire Line
 	4700 2250 4700 2500
 Connection ~ 4700 1450
@@ -211,7 +181,7 @@ Wire Wire Line
 Wire Wire Line
 	4200 2050 4100 2050
 $Comp
-L R_0805 R1
+L Resistors:R_0805 R1
 U 1 1 57D19022
 P 2300 1450
 F 0 "R1" H 2300 1700 60  0000 C CNN
@@ -222,7 +192,7 @@ F 3 "" H 1900 1450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L for_SENS XP1
+L AT42QT1011-rescue:for_SENS XP1
 U 1 1 57D19428
 P 5850 1650
 F 0 "XP1" H 5750 2250 60  0000 C CNN
@@ -233,7 +203,7 @@ F 3 "" H 5750 1300 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L FuseX2 fuse1
+L AT42QT1011-rescue:FuseX2 fuse1
 U 1 1 57D1956E
 P 3250 3250
 F 0 "fuse1" H 3250 3550 60  0000 C CNN
@@ -250,7 +220,7 @@ Wire Wire Line
 Wire Wire Line
 	3650 3250 3650 3400
 $Comp
-L GND #U07
+L Power:GND #U07
 U 1 1 57D1996C
 P 3650 3400
 F 0 "#U07" V 3700 3450 60  0001 C CNN
@@ -267,7 +237,7 @@ mode
 Text Label 4200 1850 0    60   ~ 0
 mode
 $Comp
-L conn-1p XP2
+L AT42QT1011-rescue:conn-1p XP2
 U 1 1 57D1A1C8
 P 6000 2300
 F 0 "XP2" H 5950 2550 60  0000 C CNN
@@ -288,7 +258,7 @@ mode
 NoConn ~ 6200 3050
 NoConn ~ 6200 3400
 $Comp
-L LED_0603 HL1
+L LED:LED_0603 HL1
 U 1 2 57D403F9
 P 3200 2600
 F 0 "HL1" H 2900 2950 60  0000 C CNN
@@ -299,7 +269,7 @@ F 3 "" H 3200 2600 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_0603 R2
+L Resistors:R_0603 R2
 U 1 1 57D40400
 P 2400 2600
 F 0 "R2" H 2250 2750 60  0000 C CNN
@@ -314,7 +284,7 @@ Wire Wire Line
 Wire Wire Line
 	3700 2600 3600 2600
 $Comp
-L GND #U08
+L Power:GND #U08
 U 1 1 57D404FB
 P 3700 2600
 F 0 "#U08" V 3750 2650 60  0001 C CNN
@@ -329,7 +299,7 @@ Out
 Text Label 1750 2600 0    60   ~ 0
 Out
 $Comp
-L C_0603 C2
+L Capacitors:C_0603 C2
 U 1 1 57D445EF
 P 4700 2000
 F 0 "C2" H 4850 2200 60  0000 C CNN
@@ -339,4 +309,10 @@ F 3 "" H 4700 2250 60  0000 C CNN
 	1    4700 2000
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	2850 1450 3000 1450
+Wire Wire Line
+	4700 1450 4700 1750
+Wire Wire Line
+	4700 1450 5550 1450
 $EndSCHEMATC

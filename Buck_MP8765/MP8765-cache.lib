@@ -105,6 +105,8 @@ $FPLIST
  PLS2-2*
  FlatConn-2*
  WF-2*
+ MX2.54-2*
+ MicroFit-1x2*
 $ENDFPLIST
 DRAW
 P 2 0 0 0 -150 200 -150 -200 N
@@ -204,8 +206,8 @@ ENDDEF
 DEF Inductors_Inductor L 0 40 N N 1 F N
 F0 "L" 0 300 60 H V C CNN
 F1 "Inductors_Inductor" 0 200 60 H V C CNN
-F2 "" 0 -75 60 H V C CNN
-F3 "" -400 25 60 H V C CNN
+F2 "" 0 -75 60 H I C CNN
+F3 "" -400 25 60 H I C CNN
 F4 "2" -300 300 60 H I C CNN "SolderPoints"
 F5 "0" -300 200 60 H I C CNN "SolderPoints_DIP"
 F6 "Size" 0 -100 60 H V C CNN "Size"

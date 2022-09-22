@@ -25,7 +25,7 @@ F 3 "" H 2450 2700 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 7050 6850 0    197  ~ 0
-Квест-контроллер
+MP8765 Module
 Wire Wire Line
 	2450 2200 2450 1550
 $Comp
