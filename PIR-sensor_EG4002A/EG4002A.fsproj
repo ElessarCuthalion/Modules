@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--******************************************-->
+<!--   File    : EG4002A.fsproj               -->
+<!--   Format  : TopoR Project file           -->
+<!--   Version : 2                            -->
+<!--   Program : TopoR Lite 7.0.18746         -->
+<!--   Date    : Thursday, September 22, 2022 -->
+<!--   Time    : 19:26                        -->
+<!--******************************************-->
+
+<Project>
+   <Version current="2"/>
+   <GUID>{FD71B96A-B596-4CE2-B4C8-6A9B3930660B}</GUID>
+   <Documents>
+      <Section name="PCB" isExpanded="true">
+         <File path=".\EG4002A.fsx" isopened="1" dateChange="2022-09-22 18:17:41"/>
+      </Section>
+      <Section name="AutoRouting" isExpanded="false"/>
+   </Documents>
+   <Import>
+      <Specctra>
+         <Path name="D:\Projects\18.01.26_Modules\PIR-sensor_EG4002A\EG4002A.dsn"/>
+      </Specctra>
+   </Import>
+</Project>
