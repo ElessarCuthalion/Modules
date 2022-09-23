@@ -49,7 +49,7 @@
     (pad_size 0.9 0.9)
     (pad_drill 0.9)
     (pad_to_mask_clearance 0.2)
-    (aux_axis_origin 245 150)
+    (aux_axis_origin 131.5 65)
     (grid_origin 100 50)
     (visible_elements 7FFFF77F)
     (pcbplotparams
@@ -1201,7 +1201,7 @@
     (effects (font (size 0.6 0.6) (thickness 0.15)))
   )
   (gr_text "PIR sensor" (at 125.5 57.5 90) (layer B.SilkS) (tstamp 632DBD64)
-    (effects (font (size 1.5 1.5) (thickness 0.15)) (justify mirror))
+    (effects (font (size 1.5 1.5) (thickness 0.15) italic) (justify mirror))
   )
   (gr_line (start 131.5 50) (end 100 50) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 131.5 65) (end 100 65) (angle 90) (layer Edge.Cuts) (width 0.15))
