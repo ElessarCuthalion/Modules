@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--******************************************-->
-<!--   File    : EG4002A.fsproj               -->
+<!--   File    : LP_Light-sensor.fsproj       -->
 <!--   Format  : TopoR Project file           -->
 <!--   Version : 2                            -->
 <!--   Program : TopoR Lite 7.0.18746         -->
-<!--   Date    : Thursday, September 22, 2022 -->
-<!--   Time    : 20:37                        -->
+<!--   Date    : Saturday, September 24, 2022 -->
+<!--   Time    : 15:50                        -->
 <!--******************************************-->
 
 <Project>
@@ -13,13 +13,14 @@
    <GUID>{FD71B96A-B596-4CE2-B4C8-6A9B3930660B}</GUID>
    <Documents>
       <Section name="PCB" isExpanded="true">
-         <File path=".\EG4002A.fsx" isopened="1" dateChange="2022-09-22 19:23:19"/>
+         <File path=".\LP_Light-sensor.fsx" isopened="0" dateChange="2022-09-24 15:28:05"/>
       </Section>
       <Section name="AutoRouting" isExpanded="false"/>
    </Documents>
    <Import>
       <Specctra>
          <Path name="D:\Projects\18.01.26_Modules\PIR-sensor_EG4002A\EG4002A.dsn"/>
+         <Path name="D:\Projects\18.01.26_Modules\LowPower Light-sensor\LP_Light-sensor.dsn"/>
       </Specctra>
    </Import>
 </Project>
