@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 0)
+  (lib (name "AS-V20_AS-M15_simple-rescue")(type "Legacy")(uri "${KIPRJMOD}/AS-V20_AS-M15_simple-rescue.lib")(options "")(descr ""))
+)
