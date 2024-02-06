@@ -48,7 +48,13 @@
           "min_clearance": 0.3
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "filename": "board_design_settings.json",
@@ -166,8 +172,15 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
-      "via_dimensions": [],
+      "track_widths": [
+        0.0
+      ],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "layer_presets": [],
@@ -457,96 +470,20 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "wide",
-        "pattern": "+3.3V"
-      },
-      {
-        "netclass": "wide",
-        "pattern": "+3.3Vin"
-      },
-      {
-        "netclass": "wide",
-        "pattern": "+5V"
-      },
-      {
-        "netclass": "wide",
-        "pattern": "+BATTin"
-      },
-      {
-        "netclass": "wide",
-        "pattern": "+USBvcc"
-      },
-      {
-        "netclass": "wide",
-        "pattern": "/+MSU_PWR"
-      },
-      {
-        "netclass": "wide",
-        "pattern": "/+SENS_PWR"
-      },
-      {
-        "netclass": "wide",
-        "pattern": "/+VCCuser"
-      },
-      {
-        "netclass": "wide",
-        "pattern": "/+Vibro"
-      },
-      {
-        "netclass": "wide",
-        "pattern": "/-LED1"
-      },
-      {
-        "netclass": "wide",
-        "pattern": "/-LED10"
-      },
-      {
-        "netclass": "wide",
-        "pattern": "/-LED2"
-      },
-      {
-        "netclass": "wide",
-        "pattern": "/-LED3"
-      },
-      {
-        "netclass": "wide",
-        "pattern": "/-LED4"
-      },
-      {
-        "netclass": "wide",
-        "pattern": "/-LED5"
-      },
-      {
-        "netclass": "wide",
-        "pattern": "/-LED6"
-      },
-      {
-        "netclass": "wide",
-        "pattern": "/-LED7"
-      },
-      {
-        "netclass": "wide",
-        "pattern": "/-LED8"
-      },
-      {
-        "netclass": "wide",
-        "pattern": "/-LED9"
-      },
-      {
-        "netclass": "wide",
-        "pattern": "/-Vibro"
-      },
-      {
-        "netclass": "wide",
-        "pattern": "GND"
+        "netclass": "wide wide",
+        "pattern": "*+SW*"
       },
       {
         "netclass": "wide wide",
-        "pattern": "/LX1"
+        "pattern": "*+LX*"
       },
       {
-        "netclass": "wide wide",
-        "pattern": "/LX2"
+        "netclass": "wide",
+        "pattern": "*GND*"
+      },
+      {
+        "netclass": "wide",
+        "pattern": "*+*"
       }
     ]
   },
@@ -555,7 +492,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "Armlet.net",
-      "specctra_dsn": "",
+      "specctra_dsn": "MP2617B.dsn",
       "step": "",
       "vrml": ""
     },
