@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--****************************************-->
+<!--   File    : MP2617B.fsproj             -->
+<!--   Format  : TopoR Project file         -->
+<!--   Version : 2                          -->
+<!--   Program : TopoR Lite 7.0.18746       -->
+<!--   Date    : Tuesday, February 06, 2024 -->
+<!--   Time    : 15:28                      -->
+<!--****************************************-->
+
+<Project>
+   <Version current="2"/>
+   <GUID>{05CA7209-F031-4300-A606-509F89A7839A}</GUID>
+   <Documents>
+      <Section name="PCB" isExpanded="true">
+         <File path=".\MP2617B.fsx" isopened="1" dateChange="2024-02-06 15:23:58"/>
+      </Section>
+      <Section name="AutoRouting" isExpanded="false"/>
+   </Documents>
+   <Import>
+      <Specctra>
+         <Path name="D:\Projects\18.01.26_Modules\Charger&amp;Buck_MP2617B\MP2617B.dsn"/>
+      </Specctra>
+   </Import>
+</Project>
